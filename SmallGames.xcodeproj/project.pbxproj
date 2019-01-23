@@ -1,0 +1,1695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B961A1E3A4DB019E080C6165 /* libPods-SmallGames.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F83C6169A60160D8CBB26C18 /* libPods-SmallGames.a */; };
+		CE154CD82150B9DA0024555A /* CCView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE154CD62150B9D90024555A /* CCView.m */; };
+		CE154CDB2150BCDB0024555A /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE154CD92150BCDB0024555A /* CCViewController.m */; };
+		CE154CDE2150BE280024555A /* CCAbnormalNetworkView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE154CDD2150BE280024555A /* CCAbnormalNetworkView.m */; };
+		CE154CE12150BE920024555A /* CCEmptyDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE154CDF2150BE920024555A /* CCEmptyDataView.m */; };
+		CE154CE42150C0B90024555A /* CCTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE154CE22150C0B90024555A /* CCTabbarController.m */; };
+		CE154CE82150C1AD0024555A /* CCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE154CE72150C1AD0024555A /* CCNavigationController.m */; };
+		CE154CEB2150C2210024555A /* CCTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE154CE92150C2210024555A /* CCTool.m */; };
+		CE154CEE2150C9200024555A /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = CE154CEC2150C91F0024555A /* UIImage+image.m */; };
+		CE154CF12150E49A0024555A /* CCAppSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE154CEF2150E49A0024555A /* CCAppSettingManager.m */; };
+		CE154CF42150E5EE0024555A /* CCGameHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE154CF32150E5EE0024555A /* CCGameHomeViewController.m */; };
+		CE154CFF2150E9210024555A /* CCPersonalHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE154CFE2150E9210024555A /* CCPersonalHomeViewController.m */; };
+		CE154D032150E9C10024555A /* CCGameFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE154D022150E9C10024555A /* CCGameFootView.m */; };
+		CE3C18CA2165FC0300FF2118 /* CCChatMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3C18C92165FC0300FF2118 /* CCChatMessageModel.m */; };
+		CE3C19002167367400FF2118 /* CCGameFeaturesView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3C18FF2167367400FF2118 /* CCGameFeaturesView.m */; };
+		CE3C19072169DFE100FF2118 /* CCCommonProblemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3C19062169DFE100FF2118 /* CCCommonProblemModel.m */; };
+		CE3C190A216A34CD00FF2118 /* CCOfflineBoonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3C1909216A34CD00FF2118 /* CCOfflineBoonModel.m */; };
+		CE48AB0A218B08AE00E26888 /* CCJsonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE48AB09218B08AE00E26888 /* CCJsonTool.m */; };
+		CE48AB0E218B314200E26888 /* CCLotteryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE48AB0D218B314200E26888 /* CCLotteryModel.m */; };
+		CE4EF24D215220C00082A8E8 /* CCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EF24C215220C00082A8E8 /* CCHomeViewController.m */; };
+		CE4EF26721523E4B0082A8E8 /* CCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EF25121523E4A0082A8E8 /* CCLoginViewController.m */; };
+		CE4EF26821523E4B0082A8E8 /* CCPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EF25221523E4A0082A8E8 /* CCPasswordViewController.m */; };
+		CE4EF26A21523E4B0082A8E8 /* CCMineManage.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EF25721523E4A0082A8E8 /* CCMineManage.m */; };
+		CE4EF26B21523E4B0082A8E8 /* HttpService.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EF25821523E4A0082A8E8 /* HttpService.m */; };
+		CE4EF26D21523E4B0082A8E8 /* CCUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EF25F21523E4A0082A8E8 /* CCUserInfoModel.m */; };
+		CE4EF26E21523E4B0082A8E8 /* CCUserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EF26221523E4A0082A8E8 /* CCUserInfoView.m */; };
+		CE4EF26F21523E4B0082A8E8 /* CCRegisteredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EF26521523E4A0082A8E8 /* CCRegisteredViewController.m */; };
+		CE4EF2722152440A0082A8E8 /* CCLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EF2712152440A0082A8E8 /* CCLoginView.m */; };
+		CE4EF275215246260082A8E8 /* CCBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EF274215246260082A8E8 /* CCBaseView.m */; };
+		CE4EF2A221536CBD0082A8E8 /* CCCustomerServiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EF2A121536CBD0082A8E8 /* CCCustomerServiceView.m */; };
+		CE4EF2A5215387F40082A8E8 /* CCPersonalHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EF2A4215387F40082A8E8 /* CCPersonalHomeCell.m */; };
+		CE4EF2A8215398450082A8E8 /* CCPersonalHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EF2A7215398450082A8E8 /* CCPersonalHomeHeaderView.m */; };
+		CE59D5B2215DFE9B00E1B510 /* CCGameBeijingRacingTrendHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE59D5B1215DFE9B00E1B510 /* CCGameBeijingRacingTrendHeaderView.m */; };
+		CE59D5B5215E140400E1B510 /* CCGameBeijingRacingTrendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE59D5B4215E140400E1B510 /* CCGameBeijingRacingTrendCell.m */; };
+		CE59D5B8215F3FEA00E1B510 /* CCGameChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE59D5B7215F3FEA00E1B510 /* CCGameChatViewController.m */; };
+		CE59D5BB215F43C900E1B510 /* CCGameChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE59D5BA215F43C900E1B510 /* CCGameChatCell.m */; };
+		CE59D5BE215F6E2700E1B510 /* CCGameDocumentaryRuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE59D5BD215F6E2700E1B510 /* CCGameDocumentaryRuleView.m */; };
+		CE59D5C1215F856C00E1B510 /* CCGameModifyOddsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE59D5C0215F856C00E1B510 /* CCGameModifyOddsView.m */; };
+		CE59D5C4215F98F200E1B510 /* CCGameDocumentaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE59D5C3215F98F200E1B510 /* CCGameDocumentaryView.m */; };
+		CE62DD8B21572E03009A0844 /* CCPersonalOfflineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE62DD8A21572E03009A0844 /* CCPersonalOfflineCell.m */; };
+		CE62DD8E2157317F009A0844 /* CCOfflineSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE62DD8D2157317F009A0844 /* CCOfflineSectionHeaderView.m */; };
+		CE62DD912157346F009A0844 /* CCOfflineHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE62DD902157346F009A0844 /* CCOfflineHeaderView.m */; };
+		CE62DDA42157504A009A0844 /* CCPersonalSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE62DDA32157504A009A0844 /* CCPersonalSectionView.m */; };
+		CE62DDA721575263009A0844 /* CCPersonalOfflinePersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE62DDA621575263009A0844 /* CCPersonalOfflinePersonalViewController.m */; };
+		CE62DDAA215754B4009A0844 /* CCPersonalOfflinePersonalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE62DDA9215754B4009A0844 /* CCPersonalOfflinePersonalCell.m */; };
+		CE62DDAD2157564A009A0844 /* CCPersonalFootSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE62DDAC2157564A009A0844 /* CCPersonalFootSectionView.m */; };
+		CE62DDB02157663B009A0844 /* CCPersonalAccountRecordSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE62DDAF2157663B009A0844 /* CCPersonalAccountRecordSectionHeaderView.m */; };
+		CE62DDB32157664A009A0844 /* CCPersonalAccountRecordSectionFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE62DDB22157664A009A0844 /* CCPersonalAccountRecordSectionFootView.m */; };
+		CE62DDB621576668009A0844 /* CCPersonalAccountRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE62DDB521576668009A0844 /* CCPersonalAccountRecordCell.m */; };
+		CE62DDB92157915E009A0844 /* CCPersonalBettingRecordHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE62DDB82157915E009A0844 /* CCPersonalBettingRecordHeaderView.m */; };
+		CE62DDBC2157A39C009A0844 /* CCUnsettledBetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE62DDBB2157A39C009A0844 /* CCUnsettledBetViewController.m */; };
+		CE62DDBF2157A3F9009A0844 /* CCBettingTodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE62DDBE2157A3F9009A0844 /* CCBettingTodayViewController.m */; };
+		CE64C203218D83A10055856B /* CCHistoryDayDetailsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE64C202218D83A10055856B /* CCHistoryDayDetailsModel.m */; };
+		CE64C206218DCB740055856B /* CCSendMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE64C205218DCB740055856B /* CCSendMessageModel.m */; };
+		CE64C209218DCF290055856B /* CCUserMessageInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE64C208218DCF290055856B /* CCUserMessageInfoModel.m */; };
+		CE69620421648EAB001B8AE3 /* webSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69620221648EAB001B8AE3 /* webSocketManager.m */; };
+		CE71B7A0218EADDD0092AD05 /* CCPersonalBettingRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE71B79F218EADDD0092AD05 /* CCPersonalBettingRecordModel.m */; };
+		CE74789021509BAF006B36A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE74788F21509BAF006B36A8 /* AppDelegate.m */; };
+		CE74789621509BAF006B36A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE74789421509BAF006B36A8 /* Main.storyboard */; };
+		CE74789821509BB0006B36A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE74789721509BB0006B36A8 /* Assets.xcassets */; };
+		CE74789B21509BB0006B36A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE74789921509BB0006B36A8 /* LaunchScreen.storyboard */; };
+		CE74789E21509BB0006B36A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE74789D21509BB0006B36A8 /* main.m */; };
+		CE88A818215C6FBD002B6AF0 /* CCGameDocumentaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88A817215C6FBD002B6AF0 /* CCGameDocumentaryViewController.m */; };
+		CE88A81B215C712B002B6AF0 /* CCGameLongDragonHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88A81A215C712B002B6AF0 /* CCGameLongDragonHeaderView.m */; };
+		CE88A81E215C72FB002B6AF0 /* CCGameLongDragonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88A81D215C72FB002B6AF0 /* CCGameLongDragonCell.m */; };
+		CE88A821215C784C002B6AF0 /* CCGameDocumentaryHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88A820215C784C002B6AF0 /* CCGameDocumentaryHeaderView.m */; };
+		CE88A824215C7EDA002B6AF0 /* CCGameDocumentarySectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88A823215C7EDA002B6AF0 /* CCGameDocumentarySectionView.m */; };
+		CE88A827215C815F002B6AF0 /* CCGameDocumentaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88A826215C815F002B6AF0 /* CCGameDocumentaryCell.m */; };
+		CE88A82A215C8C94002B6AF0 /* CCGameBeijingRacingAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88A829215C8C94002B6AF0 /* CCGameBeijingRacingAnimationViewController.m */; };
+		CE88A82D215C8CC9002B6AF0 /* CCGameChongqingTimeColorAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88A82C215C8CC9002B6AF0 /* CCGameChongqingTimeColorAnimationViewController.m */; };
+		CE88A830215C8CFE002B6AF0 /* CCGameLuckyAirshipAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88A82F215C8CFE002B6AF0 /* CCGameLuckyAirshipAnimationViewController.m */; };
+		CE88A833215C9929002B6AF0 /* CCGameBeijingRacingTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88A832215C9929002B6AF0 /* CCGameBeijingRacingTrendViewController.m */; };
+		CE88A836215C9941002B6AF0 /* CCGameChongqingTimeColorTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88A835215C9941002B6AF0 /* CCGameChongqingTimeColorTrendViewController.m */; };
+		CE88A839215C995F002B6AF0 /* CCGameLuckyAirshipTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88A838215C995F002B6AF0 /* CCGameLuckyAirshipTrendViewController.m */; };
+		CE88A83C215CA79B002B6AF0 /* CCGameBeijingRacingLotteryView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88A83B215CA79B002B6AF0 /* CCGameBeijingRacingLotteryView.m */; };
+		CE88A83F215CA7B4002B6AF0 /* CCGameChongqingTimeColorLotteryView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88A83E215CA7B4002B6AF0 /* CCGameChongqingTimeColorLotteryView.m */; };
+		CE88A842215CA7CC002B6AF0 /* CCGameLuckyAirshipLotteryView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88A841215CA7CC002B6AF0 /* CCGameLuckyAirshipLotteryView.m */; };
+		CE88A845215CBD34002B6AF0 /* CCGameEntryInformationView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88A844215CBD34002B6AF0 /* CCGameEntryInformationView.m */; };
+		CE88A848215CD122002B6AF0 /* CCGameChongqingTimeColorTrendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88A847215CD122002B6AF0 /* CCGameChongqingTimeColorTrendCell.m */; };
+		CE88A84B215CF0B8002B6AF0 /* CCGameChongqingTimeColorTrendHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88A84A215CF0B8002B6AF0 /* CCGameChongqingTimeColorTrendHeaderView.m */; };
+		CE88F397215607FA00CD8165 /* CCPersonalPurseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88F396215607FA00CD8165 /* CCPersonalPurseCell.m */; };
+		CE88F39E215615E400CD8165 /* CCPersonalPurseScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88F39D215615E400CD8165 /* CCPersonalPurseScoreViewController.m */; };
+		CE88F3A12156200700CD8165 /* CCPersonalScoreRecordingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88F3A02156200700CD8165 /* CCPersonalScoreRecordingViewController.m */; };
+		CE88F3A42156297000CD8165 /* CCPersonalScoreRecordingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88F3A32156297000CD8165 /* CCPersonalScoreRecordingCell.m */; };
+		CE88F3B52156522400CD8165 /* HSAddressPickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88F3A92156522400CD8165 /* HSAddressPickerVC.m */; };
+		CE88F3B62156522400CD8165 /* HSDatePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88F3AA2156522400CD8165 /* HSDatePickerVC.m */; };
+		CE88F3B72156522400CD8165 /* HSBasePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88F3AD2156522400CD8165 /* HSBasePickerVC.m */; };
+		CE88F3B92156522400CD8165 /* NSDate+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88F3AF2156522400CD8165 /* NSDate+Date.m */; };
+		CE88F3BA2156522400CD8165 /* HSGenderPickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88F3B22156522400CD8165 /* HSGenderPickerVC.m */; };
+		CE88F3BB2156522400CD8165 /* HS_address.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE88F3B42156522400CD8165 /* HS_address.plist */; };
+		CE88F3BE21565E0900CD8165 /* CCPersonalCommonProblemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88F3BD21565E0900CD8165 /* CCPersonalCommonProblemCell.m */; };
+		CE8A2571216B2C1B0048EDF0 /* CCGameRuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A2570216B2C1B0048EDF0 /* CCGameRuleView.m */; };
+		CE90310F2157C66E00157D82 /* CCUnsettledBetSceionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90310E2157C66E00157D82 /* CCUnsettledBetSceionView.m */; };
+		CE9031122157CCB100157D82 /* CCPersonalBettingRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9031112157CCB100157D82 /* CCPersonalBettingRecordCell.m */; };
+		CE90311621588D6D00157D82 /* CCPersonalAccountHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90311521588D6D00157D82 /* CCPersonalAccountHistoryViewController.m */; };
+		CE90311921588E4A00157D82 /* CCPersonalAccountHistoryHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90311821588E4A00157D82 /* CCPersonalAccountHistoryHeaderView.m */; };
+		CE90311C2158B51300157D82 /* CCPersonalAccountHistorySettledViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90311B2158B51300157D82 /* CCPersonalAccountHistorySettledViewController.m */; };
+		CE90311F2158B54100157D82 /* CCPersonalAccountHistoryUnsettlementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90311E2158B54100157D82 /* CCPersonalAccountHistoryUnsettlementViewController.m */; };
+		CE9031222158B9C900157D82 /* CCPersonalAccountHistorySectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9031212158B9C900157D82 /* CCPersonalAccountHistorySectionView.m */; };
+		CE9031252158C16A00157D82 /* CCPersonalAccountHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9031242158C16A00157D82 /* CCPersonalAccountHistoryCell.m */; };
+		CE9031282158D64700157D82 /* CCPersonalAccountHistoryDayDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9031272158D64700157D82 /* CCPersonalAccountHistoryDayDetailsViewController.m */; };
+		CE90312B2158D69700157D82 /* CCPersonalAccountHistoryScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90312A2158D69700157D82 /* CCPersonalAccountHistoryScheduleViewController.m */; };
+		CE903172215A2DE500157D82 /* CCPersonalAccountHistoryScheduleHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE903171215A2DE500157D82 /* CCPersonalAccountHistoryScheduleHeaderView.m */; };
+		CE903175215A307600157D82 /* CCPersonalAccountHistoryScheduleHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE903174215A307600157D82 /* CCPersonalAccountHistoryScheduleHeaderCell.m */; };
+		CE903178215A5B2500157D82 /* CCPersonalAccountHistoryDayDetailsHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE903177215A5B2500157D82 /* CCPersonalAccountHistoryDayDetailsHeaderView.m */; };
+		CE90317B215A60EA00157D82 /* CCPersonalAccountHistoryDayDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90317A215A60EA00157D82 /* CCPersonalAccountHistoryDayDetailsCell.m */; };
+		CE912D72215B3C6400267CCB /* CCAutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE912D71215B3C6400267CCB /* CCAutoScrollLabel.m */; };
+		CE912D75215B55BC00267CCB /* CCGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE912D74215B55BC00267CCB /* CCGameViewController.m */; };
+		CE912D78215B69A200267CCB /* CCGameHeaerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE912D77215B69A200267CCB /* CCGameHeaerView.m */; };
+		CE912D7B215B72F700267CCB /* CCGameUserActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE912D7A215B72F700267CCB /* CCGameUserActionView.m */; };
+		CE912D7E215B7F9B00267CCB /* CCSwitchGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE912D7D215B7F9B00267CCB /* CCSwitchGameView.m */; };
+		CE912D81215B88CB00267CCB /* CCGameLongDragonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE912D80215B88CB00267CCB /* CCGameLongDragonViewController.m */; };
+		CE946493218C743B001F59C6 /* CCPersonalAccountHistoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE946492218C743B001F59C6 /* CCPersonalAccountHistoryModel.m */; };
+		CE946496218C7624001F59C6 /* CCHistoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE946495218C7624001F59C6 /* CCHistoryModel.m */; };
+		CE9BBC372160B28A000877D4 /* CCVerificationCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9BBC362160B28A000877D4 /* CCVerificationCodeView.m */; };
+		CE9C1C5121637A13004DDB91 /* CCOfflineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9C1C5021637A13004DDB91 /* CCOfflineModel.m */; };
+		CE9E21F52162042200EAECC4 /* CCGameTimelyColorKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E21F42162042200EAECC4 /* CCGameTimelyColorKeyboardView.m */; };
+		CE9E21F921623F9600EAECC4 /* CCGameBeijingRacingKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E21F821623F9600EAECC4 /* CCGameBeijingRacingKeyboardView.m */; };
+		CEBD319F2153BE9000E5CC72 /* CCTakePhotoAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD319E2153BE9000E5CC72 /* CCTakePhotoAction.m */; };
+		CEC0CA0C2154907500B1E6B2 /* CCPersonalProfitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0CA0B2154907500B1E6B2 /* CCPersonalProfitViewController.m */; };
+		CEC0CA0F2154912E00B1E6B2 /* CCPersonalStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0CA0E2154912E00B1E6B2 /* CCPersonalStreamViewController.m */; };
+		CEC0CA12215495F900B1E6B2 /* CCPersonalPurseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0CA11215495F900B1E6B2 /* CCPersonalPurseViewController.m */; };
+		CEC0CA152154985100B1E6B2 /* CCPersonalOfflineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0CA142154985100B1E6B2 /* CCPersonalOfflineViewController.m */; };
+		CEC0CA182154991A00B1E6B2 /* CCPersonalAccountBindingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0CA172154991A00B1E6B2 /* CCPersonalAccountBindingViewController.m */; };
+		CEC0CA1B215499FA00B1E6B2 /* CCPersonalAccountRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0CA1A215499FA00B1E6B2 /* CCPersonalAccountRecordViewController.m */; };
+		CEC0CA1E21549A4600B1E6B2 /* CCPersonalBettingRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0CA1D21549A4600B1E6B2 /* CCPersonalBettingRecordViewController.m */; };
+		CEC0CA2121549AB900B1E6B2 /* CCPersonalAPPDownloadView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0CA2021549AB900B1E6B2 /* CCPersonalAPPDownloadView.m */; };
+		CEC0CA2421549B5400B1E6B2 /* CCPersonalCommonProblemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0CA2321549B5400B1E6B2 /* CCPersonalCommonProblemViewController.m */; };
+		CEC0CA272154A0DF00B1E6B2 /* CCPersonalSecurityPrivacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0CA262154A0DF00B1E6B2 /* CCPersonalSecurityPrivacyViewController.m */; };
+		CEC0CA2A2154BF0700B1E6B2 /* CCPersonalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0CA292154BF0700B1E6B2 /* CCPersonalCell.m */; };
+		CEC0CA2D2154C63700B1E6B2 /* CCPersonalBindingCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0CA2C2154C63700B1E6B2 /* CCPersonalBindingCardViewController.m */; };
+		CEC0CA302154CB9100B1E6B2 /* CCPersonalBindingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0CA2F2154CB9100B1E6B2 /* CCPersonalBindingCardView.m */; };
+		CEC0CA362154EC7E00B1E6B2 /* CCPersonalPurseHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0CA352154EC7E00B1E6B2 /* CCPersonalPurseHeaderView.m */; };
+		CEFC557E216B6F62002CDC65 /* CCGameDocumentaryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC557D216B6F62002CDC65 /* CCGameDocumentaryModel.m */; };
+		CEFC5581216B796B002CDC65 /* CCPersonalPurseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC5580216B796B002CDC65 /* CCPersonalPurseModel.m */; };
+		CEFC5586216C6DCA002CDC65 /* CCPersonalAccountRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC5585216C6DCA002CDC65 /* CCPersonalAccountRecordModel.m */; };
+		CEFC558C216C894B002CDC65 /* CCGameTrendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC558B216C894B002CDC65 /* CCGameTrendModel.m */; };
+		CEFC558F216C9D16002CDC65 /* CCGameChongqingTimeColorTrendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC558E216C9D16002CDC65 /* CCGameChongqingTimeColorTrendModel.m */; };
+		CEFC5597216CACA9002CDC65 /* SlotMachineView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC5592216CACA8002CDC65 /* SlotMachineView.m */; };
+		CEFC5598216CACA9002CDC65 /* SlotMachineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC5593216CACA8002CDC65 /* SlotMachineTableViewCell.m */; };
+		CEFC5599216CACA9002CDC65 /* SlotMachineRollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC5594216CACA8002CDC65 /* SlotMachineRollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C7925F519426F29B5F762A7 /* Pods-SmallGames.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmallGames.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmallGames/Pods-SmallGames.release.xcconfig"; sourceTree = "<group>"; };
+		B13621EA96FBB70E850A144F /* Pods-SmallGames.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmallGames.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmallGames/Pods-SmallGames.debug.xcconfig"; sourceTree = "<group>"; };
+		CE154CD32150B4FB0024555A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CE154CD42150B5110024555A /* CCDefineColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDefineColor.h; sourceTree = "<group>"; };
+		CE154CD62150B9D90024555A /* CCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCView.m; sourceTree = "<group>"; };
+		CE154CD72150B9D90024555A /* CCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCView.h; sourceTree = "<group>"; };
+		CE154CD92150BCDB0024555A /* CCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
+		CE154CDA2150BCDB0024555A /* CCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
+		CE154CDC2150BE280024555A /* CCAbnormalNetworkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAbnormalNetworkView.h; sourceTree = "<group>"; };
+		CE154CDD2150BE280024555A /* CCAbnormalNetworkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAbnormalNetworkView.m; sourceTree = "<group>"; };
+		CE154CDF2150BE920024555A /* CCEmptyDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEmptyDataView.m; sourceTree = "<group>"; };
+		CE154CE02150BE920024555A /* CCEmptyDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEmptyDataView.h; sourceTree = "<group>"; };
+		CE154CE22150C0B90024555A /* CCTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTabbarController.m; sourceTree = "<group>"; };
+		CE154CE32150C0B90024555A /* CCTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTabbarController.h; sourceTree = "<group>"; };
+		CE154CE62150C1AD0024555A /* CCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNavigationController.h; sourceTree = "<group>"; };
+		CE154CE72150C1AD0024555A /* CCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNavigationController.m; sourceTree = "<group>"; };
+		CE154CE92150C2210024555A /* CCTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTool.m; sourceTree = "<group>"; };
+		CE154CEA2150C2210024555A /* CCTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTool.h; sourceTree = "<group>"; };
+		CE154CEC2150C91F0024555A /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
+		CE154CED2150C9200024555A /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		CE154CEF2150E49A0024555A /* CCAppSettingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAppSettingManager.m; sourceTree = "<group>"; };
+		CE154CF02150E49A0024555A /* CCAppSettingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAppSettingManager.h; sourceTree = "<group>"; };
+		CE154CF22150E5EE0024555A /* CCGameHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameHomeViewController.h; sourceTree = "<group>"; };
+		CE154CF32150E5EE0024555A /* CCGameHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameHomeViewController.m; sourceTree = "<group>"; };
+		CE154CFD2150E9210024555A /* CCPersonalHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalHomeViewController.h; sourceTree = "<group>"; };
+		CE154CFE2150E9210024555A /* CCPersonalHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalHomeViewController.m; sourceTree = "<group>"; };
+		CE154D012150E9C10024555A /* CCGameFootView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameFootView.h; sourceTree = "<group>"; };
+		CE154D022150E9C10024555A /* CCGameFootView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameFootView.m; sourceTree = "<group>"; };
+		CE3C18C82165FC0300FF2118 /* CCChatMessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCChatMessageModel.h; sourceTree = "<group>"; };
+		CE3C18C92165FC0300FF2118 /* CCChatMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCChatMessageModel.m; sourceTree = "<group>"; };
+		CE3C18FE2167367400FF2118 /* CCGameFeaturesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameFeaturesView.h; sourceTree = "<group>"; };
+		CE3C18FF2167367400FF2118 /* CCGameFeaturesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameFeaturesView.m; sourceTree = "<group>"; };
+		CE3C19052169DFE100FF2118 /* CCCommonProblemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCCommonProblemModel.h; sourceTree = "<group>"; };
+		CE3C19062169DFE100FF2118 /* CCCommonProblemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCCommonProblemModel.m; sourceTree = "<group>"; };
+		CE3C1908216A34CD00FF2118 /* CCOfflineBoonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCOfflineBoonModel.h; sourceTree = "<group>"; };
+		CE3C1909216A34CD00FF2118 /* CCOfflineBoonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCOfflineBoonModel.m; sourceTree = "<group>"; };
+		CE48AB08218B08AE00E26888 /* CCJsonTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCJsonTool.h; sourceTree = "<group>"; };
+		CE48AB09218B08AE00E26888 /* CCJsonTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCJsonTool.m; sourceTree = "<group>"; };
+		CE48AB0C218B314200E26888 /* CCLotteryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCLotteryModel.h; sourceTree = "<group>"; };
+		CE48AB0D218B314200E26888 /* CCLotteryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCLotteryModel.m; sourceTree = "<group>"; };
+		CE4EF24B215220C00082A8E8 /* CCHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCHomeViewController.h; sourceTree = "<group>"; };
+		CE4EF24C215220C00082A8E8 /* CCHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCHomeViewController.m; sourceTree = "<group>"; };
+		CE4EF25121523E4A0082A8E8 /* CCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLoginViewController.m; sourceTree = "<group>"; };
+		CE4EF25221523E4A0082A8E8 /* CCPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPasswordViewController.m; sourceTree = "<group>"; };
+		CE4EF25521523E4A0082A8E8 /* CCMineManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMineManage.h; sourceTree = "<group>"; };
+		CE4EF25621523E4A0082A8E8 /* HttpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpService.h; sourceTree = "<group>"; };
+		CE4EF25721523E4A0082A8E8 /* CCMineManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMineManage.m; sourceTree = "<group>"; };
+		CE4EF25821523E4A0082A8E8 /* HttpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpService.m; sourceTree = "<group>"; };
+		CE4EF25921523E4A0082A8E8 /* CCRegisteredViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRegisteredViewController.h; sourceTree = "<group>"; };
+		CE4EF25C21523E4A0082A8E8 /* CCPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPasswordViewController.h; sourceTree = "<group>"; };
+		CE4EF25E21523E4A0082A8E8 /* CCUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUserInfoModel.h; sourceTree = "<group>"; };
+		CE4EF25F21523E4A0082A8E8 /* CCUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUserInfoModel.m; sourceTree = "<group>"; };
+		CE4EF26021523E4A0082A8E8 /* CCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLoginViewController.h; sourceTree = "<group>"; };
+		CE4EF26221523E4A0082A8E8 /* CCUserInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUserInfoView.m; sourceTree = "<group>"; };
+		CE4EF26321523E4A0082A8E8 /* CCUserInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUserInfoView.h; sourceTree = "<group>"; };
+		CE4EF26521523E4A0082A8E8 /* CCRegisteredViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCRegisteredViewController.m; sourceTree = "<group>"; };
+		CE4EF2702152440A0082A8E8 /* CCLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCLoginView.h; sourceTree = "<group>"; };
+		CE4EF2712152440A0082A8E8 /* CCLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCLoginView.m; sourceTree = "<group>"; };
+		CE4EF273215246260082A8E8 /* CCBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBaseView.h; sourceTree = "<group>"; };
+		CE4EF274215246260082A8E8 /* CCBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBaseView.m; sourceTree = "<group>"; };
+		CE4EF2A021536CBD0082A8E8 /* CCCustomerServiceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCCustomerServiceView.h; sourceTree = "<group>"; };
+		CE4EF2A121536CBD0082A8E8 /* CCCustomerServiceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCCustomerServiceView.m; sourceTree = "<group>"; };
+		CE4EF2A3215387F40082A8E8 /* CCPersonalHomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalHomeCell.h; sourceTree = "<group>"; };
+		CE4EF2A4215387F40082A8E8 /* CCPersonalHomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalHomeCell.m; sourceTree = "<group>"; };
+		CE4EF2A6215398450082A8E8 /* CCPersonalHomeHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalHomeHeaderView.h; sourceTree = "<group>"; };
+		CE4EF2A7215398450082A8E8 /* CCPersonalHomeHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalHomeHeaderView.m; sourceTree = "<group>"; };
+		CE59D5B0215DFE9B00E1B510 /* CCGameBeijingRacingTrendHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameBeijingRacingTrendHeaderView.h; sourceTree = "<group>"; };
+		CE59D5B1215DFE9B00E1B510 /* CCGameBeijingRacingTrendHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameBeijingRacingTrendHeaderView.m; sourceTree = "<group>"; };
+		CE59D5B3215E140400E1B510 /* CCGameBeijingRacingTrendCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameBeijingRacingTrendCell.h; sourceTree = "<group>"; };
+		CE59D5B4215E140400E1B510 /* CCGameBeijingRacingTrendCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameBeijingRacingTrendCell.m; sourceTree = "<group>"; };
+		CE59D5B6215F3FEA00E1B510 /* CCGameChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameChatViewController.h; sourceTree = "<group>"; };
+		CE59D5B7215F3FEA00E1B510 /* CCGameChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameChatViewController.m; sourceTree = "<group>"; };
+		CE59D5B9215F43C900E1B510 /* CCGameChatCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameChatCell.h; sourceTree = "<group>"; };
+		CE59D5BA215F43C900E1B510 /* CCGameChatCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameChatCell.m; sourceTree = "<group>"; };
+		CE59D5BC215F6E2700E1B510 /* CCGameDocumentaryRuleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameDocumentaryRuleView.h; sourceTree = "<group>"; };
+		CE59D5BD215F6E2700E1B510 /* CCGameDocumentaryRuleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameDocumentaryRuleView.m; sourceTree = "<group>"; };
+		CE59D5BF215F856C00E1B510 /* CCGameModifyOddsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameModifyOddsView.h; sourceTree = "<group>"; };
+		CE59D5C0215F856C00E1B510 /* CCGameModifyOddsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameModifyOddsView.m; sourceTree = "<group>"; };
+		CE59D5C2215F98F200E1B510 /* CCGameDocumentaryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameDocumentaryView.h; sourceTree = "<group>"; };
+		CE59D5C3215F98F200E1B510 /* CCGameDocumentaryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameDocumentaryView.m; sourceTree = "<group>"; };
+		CE62DD8921572E03009A0844 /* CCPersonalOfflineCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalOfflineCell.h; sourceTree = "<group>"; };
+		CE62DD8A21572E03009A0844 /* CCPersonalOfflineCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalOfflineCell.m; sourceTree = "<group>"; };
+		CE62DD8C2157317F009A0844 /* CCOfflineSectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCOfflineSectionHeaderView.h; sourceTree = "<group>"; };
+		CE62DD8D2157317F009A0844 /* CCOfflineSectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCOfflineSectionHeaderView.m; sourceTree = "<group>"; };
+		CE62DD8F2157346F009A0844 /* CCOfflineHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCOfflineHeaderView.h; sourceTree = "<group>"; };
+		CE62DD902157346F009A0844 /* CCOfflineHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCOfflineHeaderView.m; sourceTree = "<group>"; };
+		CE62DDA22157504A009A0844 /* CCPersonalSectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalSectionView.h; sourceTree = "<group>"; };
+		CE62DDA32157504A009A0844 /* CCPersonalSectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalSectionView.m; sourceTree = "<group>"; };
+		CE62DDA521575263009A0844 /* CCPersonalOfflinePersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalOfflinePersonalViewController.h; sourceTree = "<group>"; };
+		CE62DDA621575263009A0844 /* CCPersonalOfflinePersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalOfflinePersonalViewController.m; sourceTree = "<group>"; };
+		CE62DDA8215754B4009A0844 /* CCPersonalOfflinePersonalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalOfflinePersonalCell.h; sourceTree = "<group>"; };
+		CE62DDA9215754B4009A0844 /* CCPersonalOfflinePersonalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalOfflinePersonalCell.m; sourceTree = "<group>"; };
+		CE62DDAB2157564A009A0844 /* CCPersonalFootSectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalFootSectionView.h; sourceTree = "<group>"; };
+		CE62DDAC2157564A009A0844 /* CCPersonalFootSectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalFootSectionView.m; sourceTree = "<group>"; };
+		CE62DDAE2157663B009A0844 /* CCPersonalAccountRecordSectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalAccountRecordSectionHeaderView.h; sourceTree = "<group>"; };
+		CE62DDAF2157663B009A0844 /* CCPersonalAccountRecordSectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalAccountRecordSectionHeaderView.m; sourceTree = "<group>"; };
+		CE62DDB12157664A009A0844 /* CCPersonalAccountRecordSectionFootView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalAccountRecordSectionFootView.h; sourceTree = "<group>"; };
+		CE62DDB22157664A009A0844 /* CCPersonalAccountRecordSectionFootView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalAccountRecordSectionFootView.m; sourceTree = "<group>"; };
+		CE62DDB421576668009A0844 /* CCPersonalAccountRecordCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalAccountRecordCell.h; sourceTree = "<group>"; };
+		CE62DDB521576668009A0844 /* CCPersonalAccountRecordCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalAccountRecordCell.m; sourceTree = "<group>"; };
+		CE62DDB72157915E009A0844 /* CCPersonalBettingRecordHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalBettingRecordHeaderView.h; sourceTree = "<group>"; };
+		CE62DDB82157915E009A0844 /* CCPersonalBettingRecordHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalBettingRecordHeaderView.m; sourceTree = "<group>"; };
+		CE62DDBA2157A39C009A0844 /* CCUnsettledBetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCUnsettledBetViewController.h; sourceTree = "<group>"; };
+		CE62DDBB2157A39C009A0844 /* CCUnsettledBetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCUnsettledBetViewController.m; sourceTree = "<group>"; };
+		CE62DDBD2157A3F9009A0844 /* CCBettingTodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBettingTodayViewController.h; sourceTree = "<group>"; };
+		CE62DDBE2157A3F9009A0844 /* CCBettingTodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBettingTodayViewController.m; sourceTree = "<group>"; };
+		CE64C201218D83A10055856B /* CCHistoryDayDetailsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCHistoryDayDetailsModel.h; sourceTree = "<group>"; };
+		CE64C202218D83A10055856B /* CCHistoryDayDetailsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCHistoryDayDetailsModel.m; sourceTree = "<group>"; };
+		CE64C204218DCB740055856B /* CCSendMessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCSendMessageModel.h; sourceTree = "<group>"; };
+		CE64C205218DCB740055856B /* CCSendMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCSendMessageModel.m; sourceTree = "<group>"; };
+		CE64C207218DCF290055856B /* CCUserMessageInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCUserMessageInfoModel.h; sourceTree = "<group>"; };
+		CE64C208218DCF290055856B /* CCUserMessageInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCUserMessageInfoModel.m; sourceTree = "<group>"; };
+		CE69620221648EAB001B8AE3 /* webSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webSocketManager.m; sourceTree = "<group>"; };
+		CE69620321648EAB001B8AE3 /* webSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webSocketManager.h; sourceTree = "<group>"; };
+		CE71B79E218EADDD0092AD05 /* CCPersonalBettingRecordModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalBettingRecordModel.h; sourceTree = "<group>"; };
+		CE71B79F218EADDD0092AD05 /* CCPersonalBettingRecordModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalBettingRecordModel.m; sourceTree = "<group>"; };
+		CE74788B21509BAF006B36A8 /* SmallGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmallGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE74788E21509BAF006B36A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE74788F21509BAF006B36A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE74789521509BAF006B36A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE74789721509BB0006B36A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE74789A21509BB0006B36A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE74789C21509BB0006B36A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE74789D21509BB0006B36A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE88A816215C6FBD002B6AF0 /* CCGameDocumentaryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameDocumentaryViewController.h; sourceTree = "<group>"; };
+		CE88A817215C6FBD002B6AF0 /* CCGameDocumentaryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameDocumentaryViewController.m; sourceTree = "<group>"; };
+		CE88A819215C712B002B6AF0 /* CCGameLongDragonHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameLongDragonHeaderView.h; sourceTree = "<group>"; };
+		CE88A81A215C712B002B6AF0 /* CCGameLongDragonHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameLongDragonHeaderView.m; sourceTree = "<group>"; };
+		CE88A81C215C72FB002B6AF0 /* CCGameLongDragonCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameLongDragonCell.h; sourceTree = "<group>"; };
+		CE88A81D215C72FB002B6AF0 /* CCGameLongDragonCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameLongDragonCell.m; sourceTree = "<group>"; };
+		CE88A81F215C784C002B6AF0 /* CCGameDocumentaryHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameDocumentaryHeaderView.h; sourceTree = "<group>"; };
+		CE88A820215C784C002B6AF0 /* CCGameDocumentaryHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameDocumentaryHeaderView.m; sourceTree = "<group>"; };
+		CE88A822215C7EDA002B6AF0 /* CCGameDocumentarySectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameDocumentarySectionView.h; sourceTree = "<group>"; };
+		CE88A823215C7EDA002B6AF0 /* CCGameDocumentarySectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameDocumentarySectionView.m; sourceTree = "<group>"; };
+		CE88A825215C815F002B6AF0 /* CCGameDocumentaryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameDocumentaryCell.h; sourceTree = "<group>"; };
+		CE88A826215C815F002B6AF0 /* CCGameDocumentaryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameDocumentaryCell.m; sourceTree = "<group>"; };
+		CE88A828215C8C94002B6AF0 /* CCGameBeijingRacingAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameBeijingRacingAnimationViewController.h; sourceTree = "<group>"; };
+		CE88A829215C8C94002B6AF0 /* CCGameBeijingRacingAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameBeijingRacingAnimationViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		CE88A82B215C8CC9002B6AF0 /* CCGameChongqingTimeColorAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameChongqingTimeColorAnimationViewController.h; sourceTree = "<group>"; };
+		CE88A82C215C8CC9002B6AF0 /* CCGameChongqingTimeColorAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameChongqingTimeColorAnimationViewController.m; sourceTree = "<group>"; };
+		CE88A82E215C8CFE002B6AF0 /* CCGameLuckyAirshipAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameLuckyAirshipAnimationViewController.h; sourceTree = "<group>"; };
+		CE88A82F215C8CFE002B6AF0 /* CCGameLuckyAirshipAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameLuckyAirshipAnimationViewController.m; sourceTree = "<group>"; };
+		CE88A831215C9929002B6AF0 /* CCGameBeijingRacingTrendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameBeijingRacingTrendViewController.h; sourceTree = "<group>"; };
+		CE88A832215C9929002B6AF0 /* CCGameBeijingRacingTrendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameBeijingRacingTrendViewController.m; sourceTree = "<group>"; };
+		CE88A834215C9941002B6AF0 /* CCGameChongqingTimeColorTrendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameChongqingTimeColorTrendViewController.h; sourceTree = "<group>"; };
+		CE88A835215C9941002B6AF0 /* CCGameChongqingTimeColorTrendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameChongqingTimeColorTrendViewController.m; sourceTree = "<group>"; };
+		CE88A837215C995F002B6AF0 /* CCGameLuckyAirshipTrendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameLuckyAirshipTrendViewController.h; sourceTree = "<group>"; };
+		CE88A838215C995F002B6AF0 /* CCGameLuckyAirshipTrendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameLuckyAirshipTrendViewController.m; sourceTree = "<group>"; };
+		CE88A83A215CA79B002B6AF0 /* CCGameBeijingRacingLotteryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameBeijingRacingLotteryView.h; sourceTree = "<group>"; };
+		CE88A83B215CA79B002B6AF0 /* CCGameBeijingRacingLotteryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameBeijingRacingLotteryView.m; sourceTree = "<group>"; };
+		CE88A83D215CA7B4002B6AF0 /* CCGameChongqingTimeColorLotteryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameChongqingTimeColorLotteryView.h; sourceTree = "<group>"; };
+		CE88A83E215CA7B4002B6AF0 /* CCGameChongqingTimeColorLotteryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameChongqingTimeColorLotteryView.m; sourceTree = "<group>"; };
+		CE88A840215CA7CC002B6AF0 /* CCGameLuckyAirshipLotteryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameLuckyAirshipLotteryView.h; sourceTree = "<group>"; };
+		CE88A841215CA7CC002B6AF0 /* CCGameLuckyAirshipLotteryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameLuckyAirshipLotteryView.m; sourceTree = "<group>"; };
+		CE88A843215CBD34002B6AF0 /* CCGameEntryInformationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameEntryInformationView.h; sourceTree = "<group>"; };
+		CE88A844215CBD34002B6AF0 /* CCGameEntryInformationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameEntryInformationView.m; sourceTree = "<group>"; };
+		CE88A846215CD122002B6AF0 /* CCGameChongqingTimeColorTrendCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameChongqingTimeColorTrendCell.h; sourceTree = "<group>"; };
+		CE88A847215CD122002B6AF0 /* CCGameChongqingTimeColorTrendCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameChongqingTimeColorTrendCell.m; sourceTree = "<group>"; };
+		CE88A849215CF0B8002B6AF0 /* CCGameChongqingTimeColorTrendHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameChongqingTimeColorTrendHeaderView.h; sourceTree = "<group>"; };
+		CE88A84A215CF0B8002B6AF0 /* CCGameChongqingTimeColorTrendHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameChongqingTimeColorTrendHeaderView.m; sourceTree = "<group>"; };
+		CE88F395215607FA00CD8165 /* CCPersonalPurseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalPurseCell.h; sourceTree = "<group>"; };
+		CE88F396215607FA00CD8165 /* CCPersonalPurseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalPurseCell.m; sourceTree = "<group>"; };
+		CE88F39C215615E400CD8165 /* CCPersonalPurseScoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalPurseScoreViewController.h; sourceTree = "<group>"; };
+		CE88F39D215615E400CD8165 /* CCPersonalPurseScoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalPurseScoreViewController.m; sourceTree = "<group>"; };
+		CE88F39F2156200700CD8165 /* CCPersonalScoreRecordingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalScoreRecordingViewController.h; sourceTree = "<group>"; };
+		CE88F3A02156200700CD8165 /* CCPersonalScoreRecordingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalScoreRecordingViewController.m; sourceTree = "<group>"; };
+		CE88F3A22156297000CD8165 /* CCPersonalScoreRecordingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalScoreRecordingCell.h; sourceTree = "<group>"; };
+		CE88F3A32156297000CD8165 /* CCPersonalScoreRecordingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalScoreRecordingCell.m; sourceTree = "<group>"; };
+		CE88F3A92156522400CD8165 /* HSAddressPickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSAddressPickerVC.m; sourceTree = "<group>"; };
+		CE88F3AA2156522400CD8165 /* HSDatePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSDatePickerVC.m; sourceTree = "<group>"; };
+		CE88F3AB2156522400CD8165 /* NSDate+Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Date.h"; sourceTree = "<group>"; };
+		CE88F3AC2156522400CD8165 /* HSGenderPickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSGenderPickerVC.h; sourceTree = "<group>"; };
+		CE88F3AD2156522400CD8165 /* HSBasePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSBasePickerVC.m; sourceTree = "<group>"; };
+		CE88F3AF2156522400CD8165 /* NSDate+Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Date.m"; sourceTree = "<group>"; };
+		CE88F3B02156522400CD8165 /* HSDatePickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSDatePickerVC.h; sourceTree = "<group>"; };
+		CE88F3B12156522400CD8165 /* HSAddressPickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSAddressPickerVC.h; sourceTree = "<group>"; };
+		CE88F3B22156522400CD8165 /* HSGenderPickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSGenderPickerVC.m; sourceTree = "<group>"; };
+		CE88F3B32156522400CD8165 /* HSBasePickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSBasePickerVC.h; sourceTree = "<group>"; };
+		CE88F3B42156522400CD8165 /* HS_address.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = HS_address.plist; sourceTree = "<group>"; };
+		CE88F3BC21565E0900CD8165 /* CCPersonalCommonProblemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalCommonProblemCell.h; sourceTree = "<group>"; };
+		CE88F3BD21565E0900CD8165 /* CCPersonalCommonProblemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalCommonProblemCell.m; sourceTree = "<group>"; };
+		CE8A256F216B2C1B0048EDF0 /* CCGameRuleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameRuleView.h; sourceTree = "<group>"; };
+		CE8A2570216B2C1B0048EDF0 /* CCGameRuleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameRuleView.m; sourceTree = "<group>"; };
+		CE90310D2157C66E00157D82 /* CCUnsettledBetSceionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCUnsettledBetSceionView.h; sourceTree = "<group>"; };
+		CE90310E2157C66E00157D82 /* CCUnsettledBetSceionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCUnsettledBetSceionView.m; sourceTree = "<group>"; };
+		CE9031102157CCB100157D82 /* CCPersonalBettingRecordCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalBettingRecordCell.h; sourceTree = "<group>"; };
+		CE9031112157CCB100157D82 /* CCPersonalBettingRecordCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalBettingRecordCell.m; sourceTree = "<group>"; };
+		CE90311421588D6D00157D82 /* CCPersonalAccountHistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalAccountHistoryViewController.h; sourceTree = "<group>"; };
+		CE90311521588D6D00157D82 /* CCPersonalAccountHistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalAccountHistoryViewController.m; sourceTree = "<group>"; };
+		CE90311721588E4A00157D82 /* CCPersonalAccountHistoryHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalAccountHistoryHeaderView.h; sourceTree = "<group>"; };
+		CE90311821588E4A00157D82 /* CCPersonalAccountHistoryHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalAccountHistoryHeaderView.m; sourceTree = "<group>"; };
+		CE90311A2158B51300157D82 /* CCPersonalAccountHistorySettledViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalAccountHistorySettledViewController.h; sourceTree = "<group>"; };
+		CE90311B2158B51300157D82 /* CCPersonalAccountHistorySettledViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalAccountHistorySettledViewController.m; sourceTree = "<group>"; };
+		CE90311D2158B54100157D82 /* CCPersonalAccountHistoryUnsettlementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalAccountHistoryUnsettlementViewController.h; sourceTree = "<group>"; };
+		CE90311E2158B54100157D82 /* CCPersonalAccountHistoryUnsettlementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalAccountHistoryUnsettlementViewController.m; sourceTree = "<group>"; };
+		CE9031202158B9C900157D82 /* CCPersonalAccountHistorySectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalAccountHistorySectionView.h; sourceTree = "<group>"; };
+		CE9031212158B9C900157D82 /* CCPersonalAccountHistorySectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalAccountHistorySectionView.m; sourceTree = "<group>"; };
+		CE9031232158C16A00157D82 /* CCPersonalAccountHistoryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalAccountHistoryCell.h; sourceTree = "<group>"; };
+		CE9031242158C16A00157D82 /* CCPersonalAccountHistoryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalAccountHistoryCell.m; sourceTree = "<group>"; };
+		CE9031262158D64700157D82 /* CCPersonalAccountHistoryDayDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalAccountHistoryDayDetailsViewController.h; sourceTree = "<group>"; };
+		CE9031272158D64700157D82 /* CCPersonalAccountHistoryDayDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalAccountHistoryDayDetailsViewController.m; sourceTree = "<group>"; };
+		CE9031292158D69700157D82 /* CCPersonalAccountHistoryScheduleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalAccountHistoryScheduleViewController.h; sourceTree = "<group>"; };
+		CE90312A2158D69700157D82 /* CCPersonalAccountHistoryScheduleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalAccountHistoryScheduleViewController.m; sourceTree = "<group>"; };
+		CE903170215A2DE500157D82 /* CCPersonalAccountHistoryScheduleHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalAccountHistoryScheduleHeaderView.h; sourceTree = "<group>"; };
+		CE903171215A2DE500157D82 /* CCPersonalAccountHistoryScheduleHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalAccountHistoryScheduleHeaderView.m; sourceTree = "<group>"; };
+		CE903173215A307600157D82 /* CCPersonalAccountHistoryScheduleHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalAccountHistoryScheduleHeaderCell.h; sourceTree = "<group>"; };
+		CE903174215A307600157D82 /* CCPersonalAccountHistoryScheduleHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalAccountHistoryScheduleHeaderCell.m; sourceTree = "<group>"; };
+		CE903176215A5B2500157D82 /* CCPersonalAccountHistoryDayDetailsHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalAccountHistoryDayDetailsHeaderView.h; sourceTree = "<group>"; };
+		CE903177215A5B2500157D82 /* CCPersonalAccountHistoryDayDetailsHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalAccountHistoryDayDetailsHeaderView.m; sourceTree = "<group>"; };
+		CE903179215A60EA00157D82 /* CCPersonalAccountHistoryDayDetailsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalAccountHistoryDayDetailsCell.h; sourceTree = "<group>"; };
+		CE90317A215A60EA00157D82 /* CCPersonalAccountHistoryDayDetailsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalAccountHistoryDayDetailsCell.m; sourceTree = "<group>"; };
+		CE912D70215B3C6400267CCB /* CCAutoScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAutoScrollLabel.h; sourceTree = "<group>"; };
+		CE912D71215B3C6400267CCB /* CCAutoScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAutoScrollLabel.m; sourceTree = "<group>"; };
+		CE912D73215B55BC00267CCB /* CCGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameViewController.h; sourceTree = "<group>"; };
+		CE912D74215B55BC00267CCB /* CCGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameViewController.m; sourceTree = "<group>"; };
+		CE912D76215B69A200267CCB /* CCGameHeaerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameHeaerView.h; sourceTree = "<group>"; };
+		CE912D77215B69A200267CCB /* CCGameHeaerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameHeaerView.m; sourceTree = "<group>"; };
+		CE912D79215B72F700267CCB /* CCGameUserActionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameUserActionView.h; sourceTree = "<group>"; };
+		CE912D7A215B72F700267CCB /* CCGameUserActionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameUserActionView.m; sourceTree = "<group>"; };
+		CE912D7C215B7F9B00267CCB /* CCSwitchGameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCSwitchGameView.h; sourceTree = "<group>"; };
+		CE912D7D215B7F9B00267CCB /* CCSwitchGameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCSwitchGameView.m; sourceTree = "<group>"; };
+		CE912D7F215B88CB00267CCB /* CCGameLongDragonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameLongDragonViewController.h; sourceTree = "<group>"; };
+		CE912D80215B88CB00267CCB /* CCGameLongDragonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameLongDragonViewController.m; sourceTree = "<group>"; };
+		CE946491218C743B001F59C6 /* CCPersonalAccountHistoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalAccountHistoryModel.h; sourceTree = "<group>"; };
+		CE946492218C743B001F59C6 /* CCPersonalAccountHistoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalAccountHistoryModel.m; sourceTree = "<group>"; };
+		CE946494218C7624001F59C6 /* CCHistoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCHistoryModel.h; sourceTree = "<group>"; };
+		CE946495218C7624001F59C6 /* CCHistoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCHistoryModel.m; sourceTree = "<group>"; };
+		CE9BBC352160B28A000877D4 /* CCVerificationCodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCVerificationCodeView.h; sourceTree = "<group>"; };
+		CE9BBC362160B28A000877D4 /* CCVerificationCodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCVerificationCodeView.m; sourceTree = "<group>"; };
+		CE9C1C4F21637A13004DDB91 /* CCOfflineModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCOfflineModel.h; sourceTree = "<group>"; };
+		CE9C1C5021637A13004DDB91 /* CCOfflineModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCOfflineModel.m; sourceTree = "<group>"; };
+		CE9E21F32162042200EAECC4 /* CCGameTimelyColorKeyboardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameTimelyColorKeyboardView.h; sourceTree = "<group>"; };
+		CE9E21F42162042200EAECC4 /* CCGameTimelyColorKeyboardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameTimelyColorKeyboardView.m; sourceTree = "<group>"; };
+		CE9E21F721623F9600EAECC4 /* CCGameBeijingRacingKeyboardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameBeijingRacingKeyboardView.h; sourceTree = "<group>"; };
+		CE9E21F821623F9600EAECC4 /* CCGameBeijingRacingKeyboardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameBeijingRacingKeyboardView.m; sourceTree = "<group>"; };
+		CEBD319D2153BE9000E5CC72 /* CCTakePhotoAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTakePhotoAction.h; sourceTree = "<group>"; };
+		CEBD319E2153BE9000E5CC72 /* CCTakePhotoAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTakePhotoAction.m; sourceTree = "<group>"; };
+		CEC0CA0A2154907500B1E6B2 /* CCPersonalProfitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalProfitViewController.h; sourceTree = "<group>"; };
+		CEC0CA0B2154907500B1E6B2 /* CCPersonalProfitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalProfitViewController.m; sourceTree = "<group>"; };
+		CEC0CA0D2154912E00B1E6B2 /* CCPersonalStreamViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalStreamViewController.h; sourceTree = "<group>"; };
+		CEC0CA0E2154912E00B1E6B2 /* CCPersonalStreamViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalStreamViewController.m; sourceTree = "<group>"; };
+		CEC0CA10215495F900B1E6B2 /* CCPersonalPurseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalPurseViewController.h; sourceTree = "<group>"; };
+		CEC0CA11215495F900B1E6B2 /* CCPersonalPurseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalPurseViewController.m; sourceTree = "<group>"; };
+		CEC0CA132154985100B1E6B2 /* CCPersonalOfflineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalOfflineViewController.h; sourceTree = "<group>"; };
+		CEC0CA142154985100B1E6B2 /* CCPersonalOfflineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalOfflineViewController.m; sourceTree = "<group>"; };
+		CEC0CA162154991A00B1E6B2 /* CCPersonalAccountBindingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalAccountBindingViewController.h; sourceTree = "<group>"; };
+		CEC0CA172154991A00B1E6B2 /* CCPersonalAccountBindingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalAccountBindingViewController.m; sourceTree = "<group>"; };
+		CEC0CA19215499FA00B1E6B2 /* CCPersonalAccountRecordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalAccountRecordViewController.h; sourceTree = "<group>"; };
+		CEC0CA1A215499FA00B1E6B2 /* CCPersonalAccountRecordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalAccountRecordViewController.m; sourceTree = "<group>"; };
+		CEC0CA1C21549A4600B1E6B2 /* CCPersonalBettingRecordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalBettingRecordViewController.h; sourceTree = "<group>"; };
+		CEC0CA1D21549A4600B1E6B2 /* CCPersonalBettingRecordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalBettingRecordViewController.m; sourceTree = "<group>"; };
+		CEC0CA1F21549AB900B1E6B2 /* CCPersonalAPPDownloadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalAPPDownloadView.h; sourceTree = "<group>"; };
+		CEC0CA2021549AB900B1E6B2 /* CCPersonalAPPDownloadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalAPPDownloadView.m; sourceTree = "<group>"; };
+		CEC0CA2221549B5400B1E6B2 /* CCPersonalCommonProblemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalCommonProblemViewController.h; sourceTree = "<group>"; };
+		CEC0CA2321549B5400B1E6B2 /* CCPersonalCommonProblemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalCommonProblemViewController.m; sourceTree = "<group>"; };
+		CEC0CA252154A0DF00B1E6B2 /* CCPersonalSecurityPrivacyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalSecurityPrivacyViewController.h; sourceTree = "<group>"; };
+		CEC0CA262154A0DF00B1E6B2 /* CCPersonalSecurityPrivacyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalSecurityPrivacyViewController.m; sourceTree = "<group>"; };
+		CEC0CA282154BF0700B1E6B2 /* CCPersonalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalCell.h; sourceTree = "<group>"; };
+		CEC0CA292154BF0700B1E6B2 /* CCPersonalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalCell.m; sourceTree = "<group>"; };
+		CEC0CA2B2154C63700B1E6B2 /* CCPersonalBindingCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalBindingCardViewController.h; sourceTree = "<group>"; };
+		CEC0CA2C2154C63700B1E6B2 /* CCPersonalBindingCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalBindingCardViewController.m; sourceTree = "<group>"; };
+		CEC0CA2E2154CB9100B1E6B2 /* CCPersonalBindingCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalBindingCardView.h; sourceTree = "<group>"; };
+		CEC0CA2F2154CB9100B1E6B2 /* CCPersonalBindingCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalBindingCardView.m; sourceTree = "<group>"; };
+		CEC0CA312154D73F00B1E6B2 /* CCViewType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewType.h; sourceTree = "<group>"; };
+		CEC0CA342154EC7E00B1E6B2 /* CCPersonalPurseHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalPurseHeaderView.h; sourceTree = "<group>"; };
+		CEC0CA352154EC7E00B1E6B2 /* CCPersonalPurseHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalPurseHeaderView.m; sourceTree = "<group>"; };
+		CEFC557C216B6F62002CDC65 /* CCGameDocumentaryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameDocumentaryModel.h; sourceTree = "<group>"; };
+		CEFC557D216B6F62002CDC65 /* CCGameDocumentaryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameDocumentaryModel.m; sourceTree = "<group>"; };
+		CEFC557F216B796B002CDC65 /* CCPersonalPurseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalPurseModel.h; sourceTree = "<group>"; };
+		CEFC5580216B796B002CDC65 /* CCPersonalPurseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalPurseModel.m; sourceTree = "<group>"; };
+		CEFC5584216C6DCA002CDC65 /* CCPersonalAccountRecordModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPersonalAccountRecordModel.h; sourceTree = "<group>"; };
+		CEFC5585216C6DCA002CDC65 /* CCPersonalAccountRecordModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPersonalAccountRecordModel.m; sourceTree = "<group>"; };
+		CEFC558A216C894B002CDC65 /* CCGameTrendModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameTrendModel.h; sourceTree = "<group>"; };
+		CEFC558B216C894B002CDC65 /* CCGameTrendModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameTrendModel.m; sourceTree = "<group>"; };
+		CEFC558D216C9D16002CDC65 /* CCGameChongqingTimeColorTrendModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCGameChongqingTimeColorTrendModel.h; sourceTree = "<group>"; };
+		CEFC558E216C9D16002CDC65 /* CCGameChongqingTimeColorTrendModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCGameChongqingTimeColorTrendModel.m; sourceTree = "<group>"; };
+		CEFC5591216CACA8002CDC65 /* SlotMachineRollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlotMachineRollView.h; sourceTree = "<group>"; };
+		CEFC5592216CACA8002CDC65 /* SlotMachineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlotMachineView.m; sourceTree = "<group>"; };
+		CEFC5593216CACA8002CDC65 /* SlotMachineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlotMachineTableViewCell.m; sourceTree = "<group>"; };
+		CEFC5594216CACA8002CDC65 /* SlotMachineRollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlotMachineRollView.m; sourceTree = "<group>"; };
+		CEFC5595216CACA8002CDC65 /* SlotMachineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlotMachineView.h; sourceTree = "<group>"; };
+		CEFC5596216CACA8002CDC65 /* SlotMachineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlotMachineTableViewCell.h; sourceTree = "<group>"; };
+		F83C6169A60160D8CBB26C18 /* libPods-SmallGames.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmallGames.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE74788821509BAF006B36A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B961A1E3A4DB019E080C6165 /* libPods-SmallGames.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27CE77A08DFCDB02FB666346 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B13621EA96FBB70E850A144F /* Pods-SmallGames.debug.xcconfig */,
+				2C7925F519426F29B5F762A7 /* Pods-SmallGames.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		59AB1AA80B39D02377D87C2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F83C6169A60160D8CBB26C18 /* libPods-SmallGames.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE154CD02150B38E0024555A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CE74788E21509BAF006B36A8 /* AppDelegate.h */,
+				CE74788F21509BAF006B36A8 /* AppDelegate.m */,
+				CE74789421509BAF006B36A8 /* Main.storyboard */,
+				CE74789721509BB0006B36A8 /* Assets.xcassets */,
+				CE74789921509BB0006B36A8 /* LaunchScreen.storyboard */,
+				CE74789C21509BB0006B36A8 /* Info.plist */,
+				CE74789D21509BB0006B36A8 /* main.m */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CE154CD12150B39A0024555A /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				CE154CF92150E8A40024555A /* PersonalLobby */,
+				CE154CF52150E8720024555A /* GamesLobby */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		CE154CD22150B4510024555A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				CE154CD32150B4FB0024555A /* PrefixHeader.pch */,
+				CE154CD42150B5110024555A /* CCDefineColor.h */,
+				CEC0CA312154D73F00B1E6B2 /* CCViewType.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		CE154CD52150B9B30024555A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CE154CE52150C12D0024555A /* Main */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CE154CE52150C12D0024555A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CE154CD72150B9D90024555A /* CCView.h */,
+				CE154CD62150B9D90024555A /* CCView.m */,
+				CE154CEA2150C2210024555A /* CCTool.h */,
+				CE154CE92150C2210024555A /* CCTool.m */,
+				CE154CDA2150BCDB0024555A /* CCViewController.h */,
+				CE154CD92150BCDB0024555A /* CCViewController.m */,
+				CE154CDC2150BE280024555A /* CCAbnormalNetworkView.h */,
+				CE154CDD2150BE280024555A /* CCAbnormalNetworkView.m */,
+				CE154CE02150BE920024555A /* CCEmptyDataView.h */,
+				CE154CDF2150BE920024555A /* CCEmptyDataView.m */,
+				CE154CE32150C0B90024555A /* CCTabbarController.h */,
+				CE154CE22150C0B90024555A /* CCTabbarController.m */,
+				CE154CE62150C1AD0024555A /* CCNavigationController.h */,
+				CE154CE72150C1AD0024555A /* CCNavigationController.m */,
+				CE154CF02150E49A0024555A /* CCAppSettingManager.h */,
+				CE154CEF2150E49A0024555A /* CCAppSettingManager.m */,
+				CE154CED2150C9200024555A /* UIImage+image.h */,
+				CE154CEC2150C91F0024555A /* UIImage+image.m */,
+				CE4EF273215246260082A8E8 /* CCBaseView.h */,
+				CE4EF274215246260082A8E8 /* CCBaseView.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CE154CF52150E8720024555A /* GamesLobby */ = {
+			isa = PBXGroup;
+			children = (
+				CE154CF82150E8960024555A /* Model */,
+				CE154CF72150E88C0024555A /* View */,
+				CE154CF62150E87B0024555A /* Controller */,
+			);
+			path = GamesLobby;
+			sourceTree = "<group>";
+		};
+		CE154CF62150E87B0024555A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC5583216B91A8002CDC65 /* 动画 */,
+				CEFC5582216B91A0002CDC65 /* 走势 */,
+				CEFC5578216B6E83002CDC65 /* 跟单 */,
+				CE3C18C42165FBA600FF2118 /* 聊天室 */,
+				CE154CF22150E5EE0024555A /* CCGameHomeViewController.h */,
+				CE154CF32150E5EE0024555A /* CCGameHomeViewController.m */,
+				CE912D73215B55BC00267CCB /* CCGameViewController.h */,
+				CE912D74215B55BC00267CCB /* CCGameViewController.m */,
+				CE4EF24B215220C00082A8E8 /* CCHomeViewController.h */,
+				CE4EF24C215220C00082A8E8 /* CCHomeViewController.m */,
+				CE912D7F215B88CB00267CCB /* CCGameLongDragonViewController.h */,
+				CE912D80215B88CB00267CCB /* CCGameLongDragonViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE154CF72150E88C0024555A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE912D70215B3C6400267CCB /* CCAutoScrollLabel.h */,
+				CE912D71215B3C6400267CCB /* CCAutoScrollLabel.m */,
+				CE912D76215B69A200267CCB /* CCGameHeaerView.h */,
+				CE912D77215B69A200267CCB /* CCGameHeaerView.m */,
+				CE912D79215B72F700267CCB /* CCGameUserActionView.h */,
+				CE912D7A215B72F700267CCB /* CCGameUserActionView.m */,
+				CE912D7C215B7F9B00267CCB /* CCSwitchGameView.h */,
+				CE912D7D215B7F9B00267CCB /* CCSwitchGameView.m */,
+				CE88A819215C712B002B6AF0 /* CCGameLongDragonHeaderView.h */,
+				CE88A81A215C712B002B6AF0 /* CCGameLongDragonHeaderView.m */,
+				CE88A81C215C72FB002B6AF0 /* CCGameLongDragonCell.h */,
+				CE88A81D215C72FB002B6AF0 /* CCGameLongDragonCell.m */,
+				CE88A83A215CA79B002B6AF0 /* CCGameBeijingRacingLotteryView.h */,
+				CE88A83B215CA79B002B6AF0 /* CCGameBeijingRacingLotteryView.m */,
+				CE88A83D215CA7B4002B6AF0 /* CCGameChongqingTimeColorLotteryView.h */,
+				CE88A83E215CA7B4002B6AF0 /* CCGameChongqingTimeColorLotteryView.m */,
+				CE88A840215CA7CC002B6AF0 /* CCGameLuckyAirshipLotteryView.h */,
+				CE88A841215CA7CC002B6AF0 /* CCGameLuckyAirshipLotteryView.m */,
+				CE88A846215CD122002B6AF0 /* CCGameChongqingTimeColorTrendCell.h */,
+				CE88A847215CD122002B6AF0 /* CCGameChongqingTimeColorTrendCell.m */,
+				CE88A849215CF0B8002B6AF0 /* CCGameChongqingTimeColorTrendHeaderView.h */,
+				CE88A84A215CF0B8002B6AF0 /* CCGameChongqingTimeColorTrendHeaderView.m */,
+				CE59D5B0215DFE9B00E1B510 /* CCGameBeijingRacingTrendHeaderView.h */,
+				CE59D5B1215DFE9B00E1B510 /* CCGameBeijingRacingTrendHeaderView.m */,
+				CE59D5B3215E140400E1B510 /* CCGameBeijingRacingTrendCell.h */,
+				CE59D5B4215E140400E1B510 /* CCGameBeijingRacingTrendCell.m */,
+				CE59D5C2215F98F200E1B510 /* CCGameDocumentaryView.h */,
+				CE59D5C3215F98F200E1B510 /* CCGameDocumentaryView.m */,
+				CE9E21F32162042200EAECC4 /* CCGameTimelyColorKeyboardView.h */,
+				CE9E21F42162042200EAECC4 /* CCGameTimelyColorKeyboardView.m */,
+				CE9E21F721623F9600EAECC4 /* CCGameBeijingRacingKeyboardView.h */,
+				CE9E21F821623F9600EAECC4 /* CCGameBeijingRacingKeyboardView.m */,
+				CE8A256F216B2C1B0048EDF0 /* CCGameRuleView.h */,
+				CE8A2570216B2C1B0048EDF0 /* CCGameRuleView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE154CF82150E8960024555A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE154CF92150E8A40024555A /* PersonalLobby */ = {
+			isa = PBXGroup;
+			children = (
+				CE154CFC2150E8EC0024555A /* Model */,
+				CE154CFB2150E8E30024555A /* View */,
+				CE154CFA2150E8D70024555A /* Controller */,
+			);
+			path = PersonalLobby;
+			sourceTree = "<group>";
+		};
+		CE154CFA2150E8D70024555A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C19012169DF7600FF2118 /* 常见问题 */,
+				CE62DD9E21574E46009A0844 /* 账户记录 */,
+				CE62DD9A21574E02009A0844 /* 投注信息 */,
+				CE62DD9621574CD0009A0844 /* 绑定账户 */,
+				CE62DD9221574C6F009A0844 /* 我的下线 */,
+				CE88F3982156156100CD8165 /* 我的钱包 */,
+				CE4EF24E21523E4A0082A8E8 /* 登录注册 */,
+				CE154CFD2150E9210024555A /* CCPersonalHomeViewController.h */,
+				CE154CFE2150E9210024555A /* CCPersonalHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE154CFB2150E8E30024555A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE154D012150E9C10024555A /* CCGameFootView.h */,
+				CE154D022150E9C10024555A /* CCGameFootView.m */,
+				CE4EF2A021536CBD0082A8E8 /* CCCustomerServiceView.h */,
+				CE4EF2A121536CBD0082A8E8 /* CCCustomerServiceView.m */,
+				CE4EF2A3215387F40082A8E8 /* CCPersonalHomeCell.h */,
+				CE4EF2A4215387F40082A8E8 /* CCPersonalHomeCell.m */,
+				CEC0CA282154BF0700B1E6B2 /* CCPersonalCell.h */,
+				CEC0CA292154BF0700B1E6B2 /* CCPersonalCell.m */,
+				CE4EF2A6215398450082A8E8 /* CCPersonalHomeHeaderView.h */,
+				CE4EF2A7215398450082A8E8 /* CCPersonalHomeHeaderView.m */,
+				CEBD319D2153BE9000E5CC72 /* CCTakePhotoAction.h */,
+				CEBD319E2153BE9000E5CC72 /* CCTakePhotoAction.m */,
+				CEC0CA1F21549AB900B1E6B2 /* CCPersonalAPPDownloadView.h */,
+				CEC0CA2021549AB900B1E6B2 /* CCPersonalAPPDownloadView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE154CFC2150E8EC0024555A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE3C18C42165FBA600FF2118 /* 聊天室 */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C18CB216605CC00FF2118 /* Network */,
+				CE3C18C72165FBC600FF2118 /* model */,
+				CE3C18C62165FBC000FF2118 /* view */,
+				CE3C18C52165FBB500FF2118 /* controller */,
+			);
+			path = "聊天室";
+			sourceTree = "<group>";
+		};
+		CE3C18C52165FBB500FF2118 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE59D5B6215F3FEA00E1B510 /* CCGameChatViewController.h */,
+				CE59D5B7215F3FEA00E1B510 /* CCGameChatViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		CE3C18C62165FBC000FF2118 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CE88A843215CBD34002B6AF0 /* CCGameEntryInformationView.h */,
+				CE88A844215CBD34002B6AF0 /* CCGameEntryInformationView.m */,
+				CE59D5B9215F43C900E1B510 /* CCGameChatCell.h */,
+				CE59D5BA215F43C900E1B510 /* CCGameChatCell.m */,
+				CE3C18FE2167367400FF2118 /* CCGameFeaturesView.h */,
+				CE3C18FF2167367400FF2118 /* CCGameFeaturesView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CE3C18C72165FBC600FF2118 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C18C82165FC0300FF2118 /* CCChatMessageModel.h */,
+				CE3C18C92165FC0300FF2118 /* CCChatMessageModel.m */,
+				CE64C204218DCB740055856B /* CCSendMessageModel.h */,
+				CE64C205218DCB740055856B /* CCSendMessageModel.m */,
+				CE64C207218DCF290055856B /* CCUserMessageInfoModel.h */,
+				CE64C208218DCF290055856B /* CCUserMessageInfoModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CE3C18CB216605CC00FF2118 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CE69620321648EAB001B8AE3 /* webSocketManager.h */,
+				CE69620221648EAB001B8AE3 /* webSocketManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CE3C19012169DF7600FF2118 /* 常见问题 */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C19042169DF9300FF2118 /* model */,
+				CE3C19032169DF8D00FF2118 /* view */,
+				CE3C19022169DF8200FF2118 /* controller */,
+			);
+			path = "常见问题";
+			sourceTree = "<group>";
+		};
+		CE3C19022169DF8200FF2118 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEC0CA2221549B5400B1E6B2 /* CCPersonalCommonProblemViewController.h */,
+				CEC0CA2321549B5400B1E6B2 /* CCPersonalCommonProblemViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		CE3C19032169DF8D00FF2118 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CE88F3BC21565E0900CD8165 /* CCPersonalCommonProblemCell.h */,
+				CE88F3BD21565E0900CD8165 /* CCPersonalCommonProblemCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CE3C19042169DF9300FF2118 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C19052169DFE100FF2118 /* CCCommonProblemModel.h */,
+				CE3C19062169DFE100FF2118 /* CCCommonProblemModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CE48AB0B218B311000E26888 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CE48AB0C218B314200E26888 /* CCLotteryModel.h */,
+				CE48AB0D218B314200E26888 /* CCLotteryModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CE4EF24E21523E4A0082A8E8 /* 登录注册 */ = {
+			isa = PBXGroup;
+			children = (
+				CE90311321588C2400157D82 /* controller */,
+				CE4EF25D21523E4A0082A8E8 /* Model */,
+				CE4EF26121523E4A0082A8E8 /* view */,
+			);
+			path = "登录注册";
+			sourceTree = "<group>";
+		};
+		CE4EF25421523E4A0082A8E8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CE4EF25521523E4A0082A8E8 /* CCMineManage.h */,
+				CE4EF25721523E4A0082A8E8 /* CCMineManage.m */,
+				CE48AB08218B08AE00E26888 /* CCJsonTool.h */,
+				CE48AB09218B08AE00E26888 /* CCJsonTool.m */,
+				CE4EF25621523E4A0082A8E8 /* HttpService.h */,
+				CE4EF25821523E4A0082A8E8 /* HttpService.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CE4EF25D21523E4A0082A8E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE4EF25E21523E4A0082A8E8 /* CCUserInfoModel.h */,
+				CE4EF25F21523E4A0082A8E8 /* CCUserInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE4EF26121523E4A0082A8E8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CE4EF26221523E4A0082A8E8 /* CCUserInfoView.m */,
+				CE4EF26321523E4A0082A8E8 /* CCUserInfoView.h */,
+				CE4EF2702152440A0082A8E8 /* CCLoginView.h */,
+				CE4EF2712152440A0082A8E8 /* CCLoginView.m */,
+				CE9BBC352160B28A000877D4 /* CCVerificationCodeView.h */,
+				CE9BBC362160B28A000877D4 /* CCVerificationCodeView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CE62DD9221574C6F009A0844 /* 我的下线 */ = {
+			isa = PBXGroup;
+			children = (
+				CE62DD9521574C87009A0844 /* model */,
+				CE62DD9421574C82009A0844 /* view */,
+				CE62DD9321574C79009A0844 /* controller */,
+			);
+			path = "我的下线";
+			sourceTree = "<group>";
+		};
+		CE62DD9321574C79009A0844 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEC0CA132154985100B1E6B2 /* CCPersonalOfflineViewController.h */,
+				CEC0CA142154985100B1E6B2 /* CCPersonalOfflineViewController.m */,
+				CE62DDA521575263009A0844 /* CCPersonalOfflinePersonalViewController.h */,
+				CE62DDA621575263009A0844 /* CCPersonalOfflinePersonalViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		CE62DD9421574C82009A0844 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CE62DD8921572E03009A0844 /* CCPersonalOfflineCell.h */,
+				CE62DD8A21572E03009A0844 /* CCPersonalOfflineCell.m */,
+				CE62DD8C2157317F009A0844 /* CCOfflineSectionHeaderView.h */,
+				CE62DD8D2157317F009A0844 /* CCOfflineSectionHeaderView.m */,
+				CE62DD8F2157346F009A0844 /* CCOfflineHeaderView.h */,
+				CE62DD902157346F009A0844 /* CCOfflineHeaderView.m */,
+				CE62DDA22157504A009A0844 /* CCPersonalSectionView.h */,
+				CE62DDA32157504A009A0844 /* CCPersonalSectionView.m */,
+				CE62DDAB2157564A009A0844 /* CCPersonalFootSectionView.h */,
+				CE62DDAC2157564A009A0844 /* CCPersonalFootSectionView.m */,
+				CE62DDA8215754B4009A0844 /* CCPersonalOfflinePersonalCell.h */,
+				CE62DDA9215754B4009A0844 /* CCPersonalOfflinePersonalCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CE62DD9521574C87009A0844 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CE9C1C4F21637A13004DDB91 /* CCOfflineModel.h */,
+				CE9C1C5021637A13004DDB91 /* CCOfflineModel.m */,
+				CE3C1908216A34CD00FF2118 /* CCOfflineBoonModel.h */,
+				CE3C1909216A34CD00FF2118 /* CCOfflineBoonModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CE62DD9621574CD0009A0844 /* 绑定账户 */ = {
+			isa = PBXGroup;
+			children = (
+				CE62DD9921574CEB009A0844 /* model */,
+				CE62DD9821574CE6009A0844 /* view */,
+				CE62DD9721574CDC009A0844 /* controller */,
+			);
+			path = "绑定账户";
+			sourceTree = "<group>";
+		};
+		CE62DD9721574CDC009A0844 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEC0CA162154991A00B1E6B2 /* CCPersonalAccountBindingViewController.h */,
+				CEC0CA172154991A00B1E6B2 /* CCPersonalAccountBindingViewController.m */,
+				CEC0CA2B2154C63700B1E6B2 /* CCPersonalBindingCardViewController.h */,
+				CEC0CA2C2154C63700B1E6B2 /* CCPersonalBindingCardViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		CE62DD9821574CE6009A0844 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CEC0CA2E2154CB9100B1E6B2 /* CCPersonalBindingCardView.h */,
+				CEC0CA2F2154CB9100B1E6B2 /* CCPersonalBindingCardView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CE62DD9921574CEB009A0844 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CE62DD9A21574E02009A0844 /* 投注信息 */ = {
+			isa = PBXGroup;
+			children = (
+				CE62DD9D21574E23009A0844 /* model */,
+				CE62DD9C21574E1E009A0844 /* view */,
+				CE62DD9B21574E14009A0844 /* controller */,
+			);
+			path = "投注信息";
+			sourceTree = "<group>";
+		};
+		CE62DD9B21574E14009A0844 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEC0CA1C21549A4600B1E6B2 /* CCPersonalBettingRecordViewController.h */,
+				CEC0CA1D21549A4600B1E6B2 /* CCPersonalBettingRecordViewController.m */,
+				CE62DDBA2157A39C009A0844 /* CCUnsettledBetViewController.h */,
+				CE62DDBB2157A39C009A0844 /* CCUnsettledBetViewController.m */,
+				CE62DDBD2157A3F9009A0844 /* CCBettingTodayViewController.h */,
+				CE62DDBE2157A3F9009A0844 /* CCBettingTodayViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		CE62DD9C21574E1E009A0844 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CE62DDB72157915E009A0844 /* CCPersonalBettingRecordHeaderView.h */,
+				CE62DDB82157915E009A0844 /* CCPersonalBettingRecordHeaderView.m */,
+				CE90310D2157C66E00157D82 /* CCUnsettledBetSceionView.h */,
+				CE90310E2157C66E00157D82 /* CCUnsettledBetSceionView.m */,
+				CE9031102157CCB100157D82 /* CCPersonalBettingRecordCell.h */,
+				CE9031112157CCB100157D82 /* CCPersonalBettingRecordCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CE62DD9D21574E23009A0844 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CE71B79E218EADDD0092AD05 /* CCPersonalBettingRecordModel.h */,
+				CE71B79F218EADDD0092AD05 /* CCPersonalBettingRecordModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CE62DD9E21574E46009A0844 /* 账户记录 */ = {
+			isa = PBXGroup;
+			children = (
+				CE62DDA121574E6F009A0844 /* view */,
+				CE62DDA021574E69009A0844 /* model */,
+				CE62DD9F21574E5D009A0844 /* controller */,
+			);
+			path = "账户记录";
+			sourceTree = "<group>";
+		};
+		CE62DD9F21574E5D009A0844 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEC0CA19215499FA00B1E6B2 /* CCPersonalAccountRecordViewController.h */,
+				CEC0CA1A215499FA00B1E6B2 /* CCPersonalAccountRecordViewController.m */,
+				CE90311421588D6D00157D82 /* CCPersonalAccountHistoryViewController.h */,
+				CE90311521588D6D00157D82 /* CCPersonalAccountHistoryViewController.m */,
+				CE90311A2158B51300157D82 /* CCPersonalAccountHistorySettledViewController.h */,
+				CE90311B2158B51300157D82 /* CCPersonalAccountHistorySettledViewController.m */,
+				CE90311D2158B54100157D82 /* CCPersonalAccountHistoryUnsettlementViewController.h */,
+				CE90311E2158B54100157D82 /* CCPersonalAccountHistoryUnsettlementViewController.m */,
+				CE9031262158D64700157D82 /* CCPersonalAccountHistoryDayDetailsViewController.h */,
+				CE9031272158D64700157D82 /* CCPersonalAccountHistoryDayDetailsViewController.m */,
+				CE9031292158D69700157D82 /* CCPersonalAccountHistoryScheduleViewController.h */,
+				CE90312A2158D69700157D82 /* CCPersonalAccountHistoryScheduleViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		CE62DDA021574E69009A0844 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC5584216C6DCA002CDC65 /* CCPersonalAccountRecordModel.h */,
+				CEFC5585216C6DCA002CDC65 /* CCPersonalAccountRecordModel.m */,
+				CE946491218C743B001F59C6 /* CCPersonalAccountHistoryModel.h */,
+				CE946492218C743B001F59C6 /* CCPersonalAccountHistoryModel.m */,
+				CE946494218C7624001F59C6 /* CCHistoryModel.h */,
+				CE946495218C7624001F59C6 /* CCHistoryModel.m */,
+				CE64C201218D83A10055856B /* CCHistoryDayDetailsModel.h */,
+				CE64C202218D83A10055856B /* CCHistoryDayDetailsModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CE62DDA121574E6F009A0844 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CE62DDAE2157663B009A0844 /* CCPersonalAccountRecordSectionHeaderView.h */,
+				CE62DDAF2157663B009A0844 /* CCPersonalAccountRecordSectionHeaderView.m */,
+				CE62DDB12157664A009A0844 /* CCPersonalAccountRecordSectionFootView.h */,
+				CE62DDB22157664A009A0844 /* CCPersonalAccountRecordSectionFootView.m */,
+				CE62DDB421576668009A0844 /* CCPersonalAccountRecordCell.h */,
+				CE62DDB521576668009A0844 /* CCPersonalAccountRecordCell.m */,
+				CE90311721588E4A00157D82 /* CCPersonalAccountHistoryHeaderView.h */,
+				CE90311821588E4A00157D82 /* CCPersonalAccountHistoryHeaderView.m */,
+				CE9031202158B9C900157D82 /* CCPersonalAccountHistorySectionView.h */,
+				CE9031212158B9C900157D82 /* CCPersonalAccountHistorySectionView.m */,
+				CE9031232158C16A00157D82 /* CCPersonalAccountHistoryCell.h */,
+				CE9031242158C16A00157D82 /* CCPersonalAccountHistoryCell.m */,
+				CE903170215A2DE500157D82 /* CCPersonalAccountHistoryScheduleHeaderView.h */,
+				CE903171215A2DE500157D82 /* CCPersonalAccountHistoryScheduleHeaderView.m */,
+				CE903173215A307600157D82 /* CCPersonalAccountHistoryScheduleHeaderCell.h */,
+				CE903174215A307600157D82 /* CCPersonalAccountHistoryScheduleHeaderCell.m */,
+				CE903176215A5B2500157D82 /* CCPersonalAccountHistoryDayDetailsHeaderView.h */,
+				CE903177215A5B2500157D82 /* CCPersonalAccountHistoryDayDetailsHeaderView.m */,
+				CE903179215A60EA00157D82 /* CCPersonalAccountHistoryDayDetailsCell.h */,
+				CE90317A215A60EA00157D82 /* CCPersonalAccountHistoryDayDetailsCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CE74788221509BAF006B36A8 = {
+			isa = PBXGroup;
+			children = (
+				CE74788D21509BAF006B36A8 /* SmallGames */,
+				CE74788C21509BAF006B36A8 /* Products */,
+				27CE77A08DFCDB02FB666346 /* Pods */,
+				59AB1AA80B39D02377D87C2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE74788C21509BAF006B36A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE74788B21509BAF006B36A8 /* SmallGames.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE74788D21509BAF006B36A8 /* SmallGames */ = {
+			isa = PBXGroup;
+			children = (
+				CE4EF25421523E4A0082A8E8 /* Network */,
+				CE154CD12150B39A0024555A /* Class */,
+				CE154CD52150B9B30024555A /* Other */,
+				CE154CD22150B4510024555A /* Config */,
+				CE154CD02150B38E0024555A /* Resource */,
+			);
+			path = SmallGames;
+			sourceTree = "<group>";
+		};
+		CE88F3982156156100CD8165 /* 我的钱包 */ = {
+			isa = PBXGroup;
+			children = (
+				CE88F39B2156158A00CD8165 /* model */,
+				CE88F39A2156158400CD8165 /* view */,
+				CE88F3992156157500CD8165 /* controller */,
+			);
+			path = "我的钱包";
+			sourceTree = "<group>";
+		};
+		CE88F3992156157500CD8165 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEC0CA10215495F900B1E6B2 /* CCPersonalPurseViewController.h */,
+				CEC0CA11215495F900B1E6B2 /* CCPersonalPurseViewController.m */,
+				CE88F39C215615E400CD8165 /* CCPersonalPurseScoreViewController.h */,
+				CE88F39D215615E400CD8165 /* CCPersonalPurseScoreViewController.m */,
+				CE88F39F2156200700CD8165 /* CCPersonalScoreRecordingViewController.h */,
+				CE88F3A02156200700CD8165 /* CCPersonalScoreRecordingViewController.m */,
+				CEC0CA0A2154907500B1E6B2 /* CCPersonalProfitViewController.h */,
+				CEC0CA0B2154907500B1E6B2 /* CCPersonalProfitViewController.m */,
+				CEC0CA0D2154912E00B1E6B2 /* CCPersonalStreamViewController.h */,
+				CEC0CA0E2154912E00B1E6B2 /* CCPersonalStreamViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		CE88F39A2156158400CD8165 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CE88F3A82156522400CD8165 /* HSPickerView */,
+				CE88F395215607FA00CD8165 /* CCPersonalPurseCell.h */,
+				CE88F396215607FA00CD8165 /* CCPersonalPurseCell.m */,
+				CE88F3A22156297000CD8165 /* CCPersonalScoreRecordingCell.h */,
+				CE88F3A32156297000CD8165 /* CCPersonalScoreRecordingCell.m */,
+				CEC0CA342154EC7E00B1E6B2 /* CCPersonalPurseHeaderView.h */,
+				CEC0CA352154EC7E00B1E6B2 /* CCPersonalPurseHeaderView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CE88F39B2156158A00CD8165 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC557F216B796B002CDC65 /* CCPersonalPurseModel.h */,
+				CEFC5580216B796B002CDC65 /* CCPersonalPurseModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CE88F3A82156522400CD8165 /* HSPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				CE88F3A92156522400CD8165 /* HSAddressPickerVC.m */,
+				CE88F3B02156522400CD8165 /* HSDatePickerVC.h */,
+				CE88F3AA2156522400CD8165 /* HSDatePickerVC.m */,
+				CE88F3AB2156522400CD8165 /* NSDate+Date.h */,
+				CE88F3AC2156522400CD8165 /* HSGenderPickerVC.h */,
+				CE88F3AD2156522400CD8165 /* HSBasePickerVC.m */,
+				CE88F3AF2156522400CD8165 /* NSDate+Date.m */,
+				CE88F3B12156522400CD8165 /* HSAddressPickerVC.h */,
+				CE88F3B22156522400CD8165 /* HSGenderPickerVC.m */,
+				CE88F3B32156522400CD8165 /* HSBasePickerVC.h */,
+				CE88F3B42156522400CD8165 /* HS_address.plist */,
+			);
+			path = HSPickerView;
+			sourceTree = "<group>";
+		};
+		CE90311321588C2400157D82 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEC0CA252154A0DF00B1E6B2 /* CCPersonalSecurityPrivacyViewController.h */,
+				CEC0CA262154A0DF00B1E6B2 /* CCPersonalSecurityPrivacyViewController.m */,
+				CE4EF25C21523E4A0082A8E8 /* CCPasswordViewController.h */,
+				CE4EF25221523E4A0082A8E8 /* CCPasswordViewController.m */,
+				CE4EF25921523E4A0082A8E8 /* CCRegisteredViewController.h */,
+				CE4EF26521523E4A0082A8E8 /* CCRegisteredViewController.m */,
+				CE4EF26021523E4A0082A8E8 /* CCLoginViewController.h */,
+				CE4EF25121523E4A0082A8E8 /* CCLoginViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		CEFC5578216B6E83002CDC65 /* 跟单 */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC557B216B6E9E002CDC65 /* view */,
+				CEFC557A216B6E98002CDC65 /* model */,
+				CEFC5579216B6E8F002CDC65 /* controller */,
+			);
+			path = "跟单";
+			sourceTree = "<group>";
+		};
+		CEFC5579216B6E8F002CDC65 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE88A816215C6FBD002B6AF0 /* CCGameDocumentaryViewController.h */,
+				CE88A817215C6FBD002B6AF0 /* CCGameDocumentaryViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		CEFC557A216B6E98002CDC65 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC557C216B6F62002CDC65 /* CCGameDocumentaryModel.h */,
+				CEFC557D216B6F62002CDC65 /* CCGameDocumentaryModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CEFC557B216B6E9E002CDC65 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CE59D5BF215F856C00E1B510 /* CCGameModifyOddsView.h */,
+				CE59D5C0215F856C00E1B510 /* CCGameModifyOddsView.m */,
+				CE88A825215C815F002B6AF0 /* CCGameDocumentaryCell.h */,
+				CE88A826215C815F002B6AF0 /* CCGameDocumentaryCell.m */,
+				CE88A822215C7EDA002B6AF0 /* CCGameDocumentarySectionView.h */,
+				CE88A823215C7EDA002B6AF0 /* CCGameDocumentarySectionView.m */,
+				CE88A81F215C784C002B6AF0 /* CCGameDocumentaryHeaderView.h */,
+				CE88A820215C784C002B6AF0 /* CCGameDocumentaryHeaderView.m */,
+				CE59D5BC215F6E2700E1B510 /* CCGameDocumentaryRuleView.h */,
+				CE59D5BD215F6E2700E1B510 /* CCGameDocumentaryRuleView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CEFC5582216B91A0002CDC65 /* 走势 */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC5589216C8928002CDC65 /* view */,
+				CEFC5588216C8923002CDC65 /* model */,
+				CEFC5587216C8919002CDC65 /* controller */,
+			);
+			path = "走势";
+			sourceTree = "<group>";
+		};
+		CEFC5583216B91A8002CDC65 /* 动画 */ = {
+			isa = PBXGroup;
+			children = (
+				CE48AB0B218B311000E26888 /* model */,
+				CEFC5590216CACA8002CDC65 /* SlotMachineView */,
+				CE88A828215C8C94002B6AF0 /* CCGameBeijingRacingAnimationViewController.h */,
+				CE88A829215C8C94002B6AF0 /* CCGameBeijingRacingAnimationViewController.m */,
+				CE88A82B215C8CC9002B6AF0 /* CCGameChongqingTimeColorAnimationViewController.h */,
+				CE88A82C215C8CC9002B6AF0 /* CCGameChongqingTimeColorAnimationViewController.m */,
+				CE88A82E215C8CFE002B6AF0 /* CCGameLuckyAirshipAnimationViewController.h */,
+				CE88A82F215C8CFE002B6AF0 /* CCGameLuckyAirshipAnimationViewController.m */,
+			);
+			path = "动画";
+			sourceTree = "<group>";
+		};
+		CEFC5587216C8919002CDC65 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE88A831215C9929002B6AF0 /* CCGameBeijingRacingTrendViewController.h */,
+				CE88A832215C9929002B6AF0 /* CCGameBeijingRacingTrendViewController.m */,
+				CE88A834215C9941002B6AF0 /* CCGameChongqingTimeColorTrendViewController.h */,
+				CE88A835215C9941002B6AF0 /* CCGameChongqingTimeColorTrendViewController.m */,
+				CE88A837215C995F002B6AF0 /* CCGameLuckyAirshipTrendViewController.h */,
+				CE88A838215C995F002B6AF0 /* CCGameLuckyAirshipTrendViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		CEFC5588216C8923002CDC65 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC558A216C894B002CDC65 /* CCGameTrendModel.h */,
+				CEFC558B216C894B002CDC65 /* CCGameTrendModel.m */,
+				CEFC558D216C9D16002CDC65 /* CCGameChongqingTimeColorTrendModel.h */,
+				CEFC558E216C9D16002CDC65 /* CCGameChongqingTimeColorTrendModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CEFC5589216C8928002CDC65 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CEFC5590216CACA8002CDC65 /* SlotMachineView */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC5595216CACA8002CDC65 /* SlotMachineView.h */,
+				CEFC5592216CACA8002CDC65 /* SlotMachineView.m */,
+				CEFC5591216CACA8002CDC65 /* SlotMachineRollView.h */,
+				CEFC5594216CACA8002CDC65 /* SlotMachineRollView.m */,
+				CEFC5593216CACA8002CDC65 /* SlotMachineTableViewCell.m */,
+				CEFC5596216CACA8002CDC65 /* SlotMachineTableViewCell.h */,
+			);
+			path = SlotMachineView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE74788A21509BAF006B36A8 /* SmallGames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7478A121509BB0006B36A8 /* Build configuration list for PBXNativeTarget "SmallGames" */;
+			buildPhases = (
+				E0AA58523AC187CEAFD34692 /* [CP] Check Pods Manifest.lock */,
+				CE74788721509BAF006B36A8 /* Sources */,
+				CE74788821509BAF006B36A8 /* Frameworks */,
+				CE74788921509BAF006B36A8 /* Resources */,
+				3E86134BEE5795489CBD2007 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmallGames;
+			productName = SmallGames;
+			productReference = CE74788B21509BAF006B36A8 /* SmallGames.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE74788321509BAF006B36A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = hello;
+				TargetAttributes = {
+					CE74788A21509BAF006B36A8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CE74788621509BAF006B36A8 /* Build configuration list for PBXProject "SmallGames" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE74788221509BAF006B36A8;
+			productRefGroup = CE74788C21509BAF006B36A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE74788A21509BAF006B36A8 /* SmallGames */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE74788921509BAF006B36A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE88F3BB2156522400CD8165 /* HS_address.plist in Resources */,
+				CE74789B21509BB0006B36A8 /* LaunchScreen.storyboard in Resources */,
+				CE74789821509BB0006B36A8 /* Assets.xcassets in Resources */,
+				CE74789621509BAF006B36A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E86134BEE5795489CBD2007 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmallGames/Pods-SmallGames-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmallGames/Pods-SmallGames-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0AA58523AC187CEAFD34692 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmallGames-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE74788721509BAF006B36A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFC5598216CACA9002CDC65 /* SlotMachineTableViewCell.m in Sources */,
+				CE4EF24D215220C00082A8E8 /* CCHomeViewController.m in Sources */,
+				CE154CDB2150BCDB0024555A /* CCViewController.m in Sources */,
+				CEC0CA272154A0DF00B1E6B2 /* CCPersonalSecurityPrivacyViewController.m in Sources */,
+				CE88F397215607FA00CD8165 /* CCPersonalPurseCell.m in Sources */,
+				CE62DDB621576668009A0844 /* CCPersonalAccountRecordCell.m in Sources */,
+				CEC0CA152154985100B1E6B2 /* CCPersonalOfflineViewController.m in Sources */,
+				CE8A2571216B2C1B0048EDF0 /* CCGameRuleView.m in Sources */,
+				CE88A82A215C8C94002B6AF0 /* CCGameBeijingRacingAnimationViewController.m in Sources */,
+				CE4EF2A221536CBD0082A8E8 /* CCCustomerServiceView.m in Sources */,
+				CEC0CA0F2154912E00B1E6B2 /* CCPersonalStreamViewController.m in Sources */,
+				CE9E21F52162042200EAECC4 /* CCGameTimelyColorKeyboardView.m in Sources */,
+				CE912D78215B69A200267CCB /* CCGameHeaerView.m in Sources */,
+				CE4EF26B21523E4B0082A8E8 /* HttpService.m in Sources */,
+				CE912D7B215B72F700267CCB /* CCGameUserActionView.m in Sources */,
+				CE59D5B2215DFE9B00E1B510 /* CCGameBeijingRacingTrendHeaderView.m in Sources */,
+				CE903175215A307600157D82 /* CCPersonalAccountHistoryScheduleHeaderCell.m in Sources */,
+				CE154CF42150E5EE0024555A /* CCGameHomeViewController.m in Sources */,
+				CEC0CA182154991A00B1E6B2 /* CCPersonalAccountBindingViewController.m in Sources */,
+				CE59D5C4215F98F200E1B510 /* CCGameDocumentaryView.m in Sources */,
+				CE154CF12150E49A0024555A /* CCAppSettingManager.m in Sources */,
+				CE74789E21509BB0006B36A8 /* main.m in Sources */,
+				CE4EF26E21523E4B0082A8E8 /* CCUserInfoView.m in Sources */,
+				CE69620421648EAB001B8AE3 /* webSocketManager.m in Sources */,
+				CEFC558C216C894B002CDC65 /* CCGameTrendModel.m in Sources */,
+				CE154CE12150BE920024555A /* CCEmptyDataView.m in Sources */,
+				CE74789021509BAF006B36A8 /* AppDelegate.m in Sources */,
+				CE9BBC372160B28A000877D4 /* CCVerificationCodeView.m in Sources */,
+				CE62DDAD2157564A009A0844 /* CCPersonalFootSectionView.m in Sources */,
+				CE154CE42150C0B90024555A /* CCTabbarController.m in Sources */,
+				CE9031252158C16A00157D82 /* CCPersonalAccountHistoryCell.m in Sources */,
+				CE88F39E215615E400CD8165 /* CCPersonalPurseScoreViewController.m in Sources */,
+				CE59D5C1215F856C00E1B510 /* CCGameModifyOddsView.m in Sources */,
+				CE90311921588E4A00157D82 /* CCPersonalAccountHistoryHeaderView.m in Sources */,
+				CEC0CA1B215499FA00B1E6B2 /* CCPersonalAccountRecordViewController.m in Sources */,
+				CE154CFF2150E9210024555A /* CCPersonalHomeViewController.m in Sources */,
+				CE62DDA721575263009A0844 /* CCPersonalOfflinePersonalViewController.m in Sources */,
+				CEFC558F216C9D16002CDC65 /* CCGameChongqingTimeColorTrendModel.m in Sources */,
+				CE88F3B52156522400CD8165 /* HSAddressPickerVC.m in Sources */,
+				CE62DDAA215754B4009A0844 /* CCPersonalOfflinePersonalCell.m in Sources */,
+				CE154CD82150B9DA0024555A /* CCView.m in Sources */,
+				CE912D75215B55BC00267CCB /* CCGameViewController.m in Sources */,
+				CE88F3A42156297000CD8165 /* CCPersonalScoreRecordingCell.m in Sources */,
+				CE88A84B215CF0B8002B6AF0 /* CCGameChongqingTimeColorTrendHeaderView.m in Sources */,
+				CEFC557E216B6F62002CDC65 /* CCGameDocumentaryModel.m in Sources */,
+				CE4EF2A8215398450082A8E8 /* CCPersonalHomeHeaderView.m in Sources */,
+				CEC0CA12215495F900B1E6B2 /* CCPersonalPurseViewController.m in Sources */,
+				CE88A839215C995F002B6AF0 /* CCGameLuckyAirshipTrendViewController.m in Sources */,
+				CE912D7E215B7F9B00267CCB /* CCSwitchGameView.m in Sources */,
+				CE88A848215CD122002B6AF0 /* CCGameChongqingTimeColorTrendCell.m in Sources */,
+				CE59D5BE215F6E2700E1B510 /* CCGameDocumentaryRuleView.m in Sources */,
+				CE3C19072169DFE100FF2118 /* CCCommonProblemModel.m in Sources */,
+				CE88A833215C9929002B6AF0 /* CCGameBeijingRacingTrendViewController.m in Sources */,
+				CE4EF275215246260082A8E8 /* CCBaseView.m in Sources */,
+				CE88A81E215C72FB002B6AF0 /* CCGameLongDragonCell.m in Sources */,
+				CE62DDB92157915E009A0844 /* CCPersonalBettingRecordHeaderView.m in Sources */,
+				CE59D5B8215F3FEA00E1B510 /* CCGameChatViewController.m in Sources */,
+				CE88A827215C815F002B6AF0 /* CCGameDocumentaryCell.m in Sources */,
+				CEC0CA2421549B5400B1E6B2 /* CCPersonalCommonProblemViewController.m in Sources */,
+				CEFC5599216CACA9002CDC65 /* SlotMachineRollView.m in Sources */,
+				CE62DDB32157664A009A0844 /* CCPersonalAccountRecordSectionFootView.m in Sources */,
+				CE90311C2158B51300157D82 /* CCPersonalAccountHistorySettledViewController.m in Sources */,
+				CEC0CA0C2154907500B1E6B2 /* CCPersonalProfitViewController.m in Sources */,
+				CE88A83F215CA7B4002B6AF0 /* CCGameChongqingTimeColorLotteryView.m in Sources */,
+				CE946496218C7624001F59C6 /* CCHistoryModel.m in Sources */,
+				CEC0CA302154CB9100B1E6B2 /* CCPersonalBindingCardView.m in Sources */,
+				CE88A845215CBD34002B6AF0 /* CCGameEntryInformationView.m in Sources */,
+				CE4EF2A5215387F40082A8E8 /* CCPersonalHomeCell.m in Sources */,
+				CE9C1C5121637A13004DDB91 /* CCOfflineModel.m in Sources */,
+				CE90311621588D6D00157D82 /* CCPersonalAccountHistoryViewController.m in Sources */,
+				CEFC5581216B796B002CDC65 /* CCPersonalPurseModel.m in Sources */,
+				CE88A836215C9941002B6AF0 /* CCGameChongqingTimeColorTrendViewController.m in Sources */,
+				CE88A83C215CA79B002B6AF0 /* CCGameBeijingRacingLotteryView.m in Sources */,
+				CE9031122157CCB100157D82 /* CCPersonalBettingRecordCell.m in Sources */,
+				CE90317B215A60EA00157D82 /* CCPersonalAccountHistoryDayDetailsCell.m in Sources */,
+				CE88A821215C784C002B6AF0 /* CCGameDocumentaryHeaderView.m in Sources */,
+				CE88A818215C6FBD002B6AF0 /* CCGameDocumentaryViewController.m in Sources */,
+				CE62DD8E2157317F009A0844 /* CCOfflineSectionHeaderView.m in Sources */,
+				CE903172215A2DE500157D82 /* CCPersonalAccountHistoryScheduleHeaderView.m in Sources */,
+				CE88F3BA2156522400CD8165 /* HSGenderPickerVC.m in Sources */,
+				CE3C18CA2165FC0300FF2118 /* CCChatMessageModel.m in Sources */,
+				CE154CDE2150BE280024555A /* CCAbnormalNetworkView.m in Sources */,
+				CE154D032150E9C10024555A /* CCGameFootView.m in Sources */,
+				CE4EF2722152440A0082A8E8 /* CCLoginView.m in Sources */,
+				CE59D5BB215F43C900E1B510 /* CCGameChatCell.m in Sources */,
+				CEC0CA2D2154C63700B1E6B2 /* CCPersonalBindingCardViewController.m in Sources */,
+				CEBD319F2153BE9000E5CC72 /* CCTakePhotoAction.m in Sources */,
+				CE88F3B72156522400CD8165 /* HSBasePickerVC.m in Sources */,
+				CEC0CA362154EC7E00B1E6B2 /* CCPersonalPurseHeaderView.m in Sources */,
+				CEFC5597216CACA9002CDC65 /* SlotMachineView.m in Sources */,
+				CE9031282158D64700157D82 /* CCPersonalAccountHistoryDayDetailsViewController.m in Sources */,
+				CE3C190A216A34CD00FF2118 /* CCOfflineBoonModel.m in Sources */,
+				CE4EF26A21523E4B0082A8E8 /* CCMineManage.m in Sources */,
+				CE88F3BE21565E0900CD8165 /* CCPersonalCommonProblemCell.m in Sources */,
+				CE946493218C743B001F59C6 /* CCPersonalAccountHistoryModel.m in Sources */,
+				CE88F3A12156200700CD8165 /* CCPersonalScoreRecordingViewController.m in Sources */,
+				CE71B7A0218EADDD0092AD05 /* CCPersonalBettingRecordModel.m in Sources */,
+				CE154CEE2150C9200024555A /* UIImage+image.m in Sources */,
+				CE88A81B215C712B002B6AF0 /* CCGameLongDragonHeaderView.m in Sources */,
+				CEC0CA2121549AB900B1E6B2 /* CCPersonalAPPDownloadView.m in Sources */,
+				CE62DDBF2157A3F9009A0844 /* CCBettingTodayViewController.m in Sources */,
+				CE90312B2158D69700157D82 /* CCPersonalAccountHistoryScheduleViewController.m in Sources */,
+				CE88A82D215C8CC9002B6AF0 /* CCGameChongqingTimeColorAnimationViewController.m in Sources */,
+				CE154CE82150C1AD0024555A /* CCNavigationController.m in Sources */,
+				CE48AB0E218B314200E26888 /* CCLotteryModel.m in Sources */,
+				CE62DDA42157504A009A0844 /* CCPersonalSectionView.m in Sources */,
+				CE59D5B5215E140400E1B510 /* CCGameBeijingRacingTrendCell.m in Sources */,
+				CE88F3B62156522400CD8165 /* HSDatePickerVC.m in Sources */,
+				CE9E21F921623F9600EAECC4 /* CCGameBeijingRacingKeyboardView.m in Sources */,
+				CE62DD8B21572E03009A0844 /* CCPersonalOfflineCell.m in Sources */,
+				CE64C206218DCB740055856B /* CCSendMessageModel.m in Sources */,
+				CE88A842215CA7CC002B6AF0 /* CCGameLuckyAirshipLotteryView.m in Sources */,
+				CEFC5586216C6DCA002CDC65 /* CCPersonalAccountRecordModel.m in Sources */,
+				CE48AB0A218B08AE00E26888 /* CCJsonTool.m in Sources */,
+				CEC0CA2A2154BF0700B1E6B2 /* CCPersonalCell.m in Sources */,
+				CE4EF26821523E4B0082A8E8 /* CCPasswordViewController.m in Sources */,
+				CE88A824215C7EDA002B6AF0 /* CCGameDocumentarySectionView.m in Sources */,
+				CE90310F2157C66E00157D82 /* CCUnsettledBetSceionView.m in Sources */,
+				CE154CEB2150C2210024555A /* CCTool.m in Sources */,
+				CE4EF26F21523E4B0082A8E8 /* CCRegisteredViewController.m in Sources */,
+				CE88A830215C8CFE002B6AF0 /* CCGameLuckyAirshipAnimationViewController.m in Sources */,
+				CE4EF26D21523E4B0082A8E8 /* CCUserInfoModel.m in Sources */,
+				CE4EF26721523E4B0082A8E8 /* CCLoginViewController.m in Sources */,
+				CE903178215A5B2500157D82 /* CCPersonalAccountHistoryDayDetailsHeaderView.m in Sources */,
+				CE9031222158B9C900157D82 /* CCPersonalAccountHistorySectionView.m in Sources */,
+				CE62DDBC2157A39C009A0844 /* CCUnsettledBetViewController.m in Sources */,
+				CEC0CA1E21549A4600B1E6B2 /* CCPersonalBettingRecordViewController.m in Sources */,
+				CE3C19002167367400FF2118 /* CCGameFeaturesView.m in Sources */,
+				CE90311F2158B54100157D82 /* CCPersonalAccountHistoryUnsettlementViewController.m in Sources */,
+				CE64C209218DCF290055856B /* CCUserMessageInfoModel.m in Sources */,
+				CE912D81215B88CB00267CCB /* CCGameLongDragonViewController.m in Sources */,
+				CE912D72215B3C6400267CCB /* CCAutoScrollLabel.m in Sources */,
+				CE88F3B92156522400CD8165 /* NSDate+Date.m in Sources */,
+				CE64C203218D83A10055856B /* CCHistoryDayDetailsModel.m in Sources */,
+				CE62DDB02157663B009A0844 /* CCPersonalAccountRecordSectionHeaderView.m in Sources */,
+				CE62DD912157346F009A0844 /* CCOfflineHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE74789421509BAF006B36A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE74789521509BAF006B36A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE74789921509BB0006B36A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE74789A21509BB0006B36A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE74789F21509BB0006B36A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE7478A021509BB0006B36A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE7478A221509BB0006B36A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B13621EA96FBB70E850A144F /* Pods-SmallGames.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 223G7RU7V5;
+				GCC_PREFIX_HEADER = SmallGames/Config/PrefixHeader.pch;
+				INFOPLIST_FILE = SmallGames/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Exchange.60COM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE7478A321509BB0006B36A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C7925F519426F29B5F762A7 /* Pods-SmallGames.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 223G7RU7V5;
+				GCC_PREFIX_HEADER = SmallGames/Config/PrefixHeader.pch;
+				INFOPLIST_FILE = SmallGames/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Exchange.60COM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE74788621509BAF006B36A8 /* Build configuration list for PBXProject "SmallGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE74789F21509BB0006B36A8 /* Debug */,
+				CE7478A021509BB0006B36A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7478A121509BB0006B36A8 /* Build configuration list for PBXNativeTarget "SmallGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7478A221509BB0006B36A8 /* Debug */,
+				CE7478A321509BB0006B36A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE74788321509BAF006B36A8 /* Project object */;
+}
