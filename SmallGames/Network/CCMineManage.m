@@ -36,7 +36,6 @@
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:roomId forKey:@"roomid"];
     [parameterDictionary setObject:@"inroom" forKey:@"way"];
-  
     HttpService *service = [HttpService sharedService];
     [service postRequest:parameterDictionary withPath:nil completion:^(id resultDictionary, NSError *error) {
         completion(resultDictionary,error);
@@ -63,6 +62,9 @@
 +(void)MineChangePassWordWithOldPassWord:(NSString *)opassword andNewPassWord:(NSString *)password completion:(void(^) (id resultDictionary, NSError *error)) completion{
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:@"updatepwd" forKey:@"way"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     [parameterDictionary setObject:opassword forKey:@"oldpwd"];
     [parameterDictionary setObject:password forKey:@"newpass"];
@@ -131,6 +133,9 @@
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:username forKey:@"username"];
     [parameterDictionary setObject:@"updateuname" forKey:@"way"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     [parameterDictionary setObject:[CCUserInfoModel UserRoomID] forKey:@"roomid"];
     HttpService *service = [HttpService sharedService];
@@ -158,6 +163,9 @@
 +(void)MineChangeUserHeaderImageWithImagePath:(NSString *)imagePath completion:(void(^) (id resultDictionary, NSError *error)) completion{
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:@"updateheadimg" forKey:@"way"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     [parameterDictionary setObject:imagePath forKey:@"headimg"];
 
@@ -171,6 +179,9 @@
 +(void)MineBettingInformationCompletion:(void(^) (id resultDictionary, NSError *error)) completion{
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:@"getorder" forKey:@"way"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     [parameterDictionary setObject:[CCUserInfoModel UserRoomID] forKey:@"roomid"];
     [parameterDictionary setObject:@"365" forKey:@"365"];
@@ -185,6 +196,9 @@
 +(void)MineCommonProblemCompletion:(void(^) (id resultDictionary, NSError *error)) completion{
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:@"cjwt" forKey:@"way"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     HttpService *service = [HttpService sharedService];
     [service postRequest:parameterDictionary withPath:nil completion:^(id resultDictionary, NSError *error) {
@@ -196,6 +210,9 @@
 +(void)MineAppDownloadCompletion:(void(^) (id resultDictionary, NSError *error)) completion{
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:@"xzewm" forKey:@"way"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     HttpService *service = [HttpService sharedService];
     [service postRequest:parameterDictionary withPath:nil completion:^(id resultDictionary, NSError *error) {
@@ -208,6 +225,9 @@
 +(void)MineCustomerServiceInformationCompletion:(void(^) (id resultDictionary, NSError *error)) completion{
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:@"getkf" forKey:@"way"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     [parameterDictionary setObject:[CCUserInfoModel UserRoomID] forKey:@"roomid"];
     HttpService *service = [HttpService sharedService];
@@ -220,6 +240,9 @@
 +(void)MineCardInformationCompletion:(void(^) (id resultDictionary, NSError *error)) completion{
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:@"bangding" forKey:@"way"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     HttpService *service = [HttpService sharedService];
     [service postRequest:parameterDictionary withPath:nil completion:^(id resultDictionary, NSError *error) {
@@ -232,6 +255,9 @@
 +(void)MineAddCardInformationWithCardNumber:(NSString *)cardNumber andBaseViewType:(BaseViewType)viewType andCardStatus:(NSUInteger)cardStatus completion:(void(^) (id resultDictionary, NSError *error)) completion{
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:@"addbangding" forKey:@"way"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     [parameterDictionary setObject:cardNumber forKey:@"infonum"];
     NSString *xuanString;
@@ -263,6 +289,9 @@
 +(void)MineBettingInformationWithOrderType:(NSString *)ordertype completion:(void(^) (id resultDictionary, NSError *error)) completion{
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:@"getorder" forKey:@"way"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     [parameterDictionary setObject:[CCUserInfoModel UserRoomID] forKey:@"roomid"];
     [parameterDictionary setObject:ordertype forKey:@"ordertype"];
@@ -276,6 +305,9 @@
 +(void)MineAcquisitionRuleWithGameType:(GameType)gameType completion:(void(^) (id resultDictionary, NSError *error)) completion{
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:@"getrules" forKey:@"way"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     [parameterDictionary setObject:[CCUserInfoModel UserRoomID] forKey:@"roomid"];
     NSString *BetGame;
@@ -297,6 +329,9 @@
 +(void)MineDocumentsListWithGameType:(GameType)gameType completion:(void(^) (id resultDictionary, NSError *error)) completion{
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:@"getgendan" forKey:@"way"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     [parameterDictionary setObject:[CCUserInfoModel UserRoomID] forKey:@"roomid"];
     NSString *BetGame;
@@ -323,6 +358,9 @@
     }else if(purseScoreType == PurseScoreTypeSubordinate){
         [parameterDictionary setObject:@"xia" forKey:@"type"];
     }
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     [parameterDictionary setObject:[CCUserInfoModel UserRoomID] forKey:@"roomid"];
     HttpService *service = [HttpService sharedService];
@@ -336,6 +374,9 @@
 +(void)MineUpperLowerPointsWithPurseScoreType:(PurseScoreType)purseScoreType andMoney:(NSString *)money completion:(void(^) (id resultDictionary, NSError *error)) completion{
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:@"sxfen" forKey:@"way"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     [parameterDictionary setObject:[CCUserInfoModel UserRoomID] forKey:@"room_id"];
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.headimg forKey:@"headimg"];
@@ -360,6 +401,9 @@
 +(void)MineTrendWithGameType:(GameType)gameType completion:(void(^) (id resultDictionary, NSError *error)) completion{
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:@"getzoushi" forKey:@"way"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     NSString *BetGame;
     if (gameType == GameTypeBeijingRacing) {
@@ -380,6 +424,9 @@
 +(void)MineReceivingBenefitsWithMoney:(NSString *)money completion:(void(^) (id resultDictionary, NSError *error)) completion{
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:@"lqfl" forKey:@"way"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     [parameterDictionary setObject:money forKey:@"fs_money"];
     HttpService *service = [HttpService sharedService];
@@ -392,6 +439,9 @@
 +(void)MineObtainFinancialRecordsWithTime:(NSString *)time completion:(void(^) (id resultDictionary, NSError *error)) completion{
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:@"getcaiwu" forKey:@"way"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     [parameterDictionary setObject:[CCUserInfoModel UserRoomID] forKey:@"roomid"];
     if (time.length != 0) {
@@ -408,6 +458,9 @@
 +(void)MineQueryAccountRecordCompletion:(void(^) (id resultDictionary, NSError *error)) completion{
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:@"getjilu" forKey:@"way"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     [parameterDictionary setObject:[CCUserInfoModel UserRoomID] forKey:@"roomid"];
     HttpService *service = [HttpService sharedService];
@@ -422,6 +475,9 @@
 +(void)MineDocumentaryInterfaceWithGameType:(GameType)gameType andDocumentaryUserShowID:(NSString *)userShowID andMagnification:(NSString *)magnification completion:(void(^) (id resultDictionary, NSError *error)) completion{
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:@"gendan" forKey:@"way"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     [parameterDictionary setObject:[CCUserInfoModel UserRoomID] forKey:@"roomid"];
     NSString *BetGame;
@@ -447,6 +503,9 @@
 +(void)MineCancelOrderWithGameType:(GameType)gameType andOrderId:(NSString *)orderId completion:(void(^) (id resultDictionary, NSError *error)) completion{
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:@"delbet" forKey:@"way"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     [parameterDictionary setObject:[CCUserInfoModel UserRoomID] forKey:@"roomid"];
     NSString *BetGame;
@@ -470,6 +529,9 @@
 +(void)MineModifyOrderWithGendanId:(NSString *)gendanId andCaozuo:(NSInteger)caozuo andOdds:(NSString *)odds completion:(void(^) (id resultDictionary, NSError *error)) completion{
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:@"updategd" forKey:@"way"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     [parameterDictionary setObject:gendanId forKey:@"gendan_id"];
     [parameterDictionary setObject:[NSString stringWithFormat:@"%ld",(long)caozuo] forKey:@"caozuo"];
@@ -486,6 +548,9 @@
 +(void)MineRequestDrawCompletion:(void(^) (id resultDictionary, NSError *error)) completion{
     NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
     [parameterDictionary setObject:@"getsscopen" forKey:@"way"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     [parameterDictionary setObject:[CCUserInfoModel UserRoomID] forKey:@"roomid"];
     
@@ -501,6 +566,9 @@
     [parameterDictionary setObject:@"getjiluxqjs" forKey:@"way"];
     NSArray *timearray = [gettime componentsSeparatedByString:@" "];
     NSString *timeString = [timearray objectAtIndex:0];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[CCJsonTool JsonToolGetTimeStrWithString:timeString] forKey:@"gettime"];
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     [parameterDictionary setObject:[CCUserInfoModel UserRoomID] forKey:@"roomid"];
@@ -517,6 +585,9 @@
     [parameterDictionary setObject:@"getjiluxqwjs" forKey:@"way"];
     NSArray *timearray = [gettime componentsSeparatedByString:@" "];
     NSString *timeString = [timearray objectAtIndex:0];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[CCJsonTool JsonToolGetTimeStrWithString:timeString] forKey:@"gettime"];
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     [parameterDictionary setObject:[CCUserInfoModel UserRoomID] forKey:@"roomid"];
@@ -535,6 +606,9 @@
     NSString *timeString = [timearray objectAtIndex:0];
     [parameterDictionary setObject:[CCJsonTool JsonToolGetTimeStrWithString:timeString] forKey:@"gettime"];
     [parameterDictionary setObject:type forKey:@"type"];
+    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+        return;
+    }
     [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
     [parameterDictionary setObject:[CCUserInfoModel UserRoomID] forKey:@"roomid"];
     
@@ -543,4 +617,30 @@
         completion(resultDictionary,error);
     }];
 }
+
+
+/**
+ 获取长龙记录
+ 
+ @param completion 数据返回
+ */
++(void)MineLongDragonCompletion:(void(^) (id resultDictionary, NSError *error)) completion{
+    NSMutableDictionary *parameterDictionary = [NSMutableDictionary dictionary];
+    [parameterDictionary setObject:@"cldata" forKey:@"way"];
+//    NSArray *timearray = [gettime componentsSeparatedByString:@" "];
+//    NSString *timeString = [timearray objectAtIndex:0];
+//    [parameterDictionary setObject:[CCJsonTool JsonToolGetTimeStrWithString:timeString] forKey:@"gettime"];
+//    [parameterDictionary setObject:type forKey:@"type"];
+//    if ([AppDelegate sharedApplicationDelegate].userInfoModel.utoken.length == 0) {
+//        return;
+//    }
+//    [parameterDictionary setObject:[AppDelegate sharedApplicationDelegate].userInfoModel.utoken forKey:@"utoken"];
+//    [parameterDictionary setObject:[CCUserInfoModel UserRoomID] forKey:@"roomid"];
+    
+    HttpService *service = [HttpService sharedService];
+    [service postRequest:parameterDictionary withPath:nil completion:^(id resultDictionary, NSError *error) {
+        completion(resultDictionary,error);
+    }];
+}
+
 @end

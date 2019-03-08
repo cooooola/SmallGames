@@ -31,6 +31,14 @@
     return self;
 }
 
+-(void)setLongDragonModel:(CCLongDragonModel *)longDragonModel{
+    _longDragonModel = longDragonModel;
+    NSArray *array = [longDragonModel.index componentsSeparatedByString:@" - "];
+    self.rankingLabel.text = [array objectAtIndex:0];
+    self.resultLabel.text = [array objectAtIndex:1];
+    self.edgeLabel.text = [NSString stringWithFormat:@"%@期",longDragonModel.num];
+}
+
 -(void)initView{
     
     [self addSubview:self.lineView];
@@ -80,6 +88,7 @@
         _rankingLabel.textColor = [UIColor whiteColor];
         _rankingLabel.textAlignment = NSTextAlignmentCenter;
         _rankingLabel.text = @"1";
+        _rankingLabel.adjustsFontSizeToFitWidth = YES;
         _rankingLabel.backgroundColor = MCUIColorFromRGB(0x0000FD);
     }
     return _rankingLabel;
@@ -92,6 +101,7 @@
         _resultLabel.textColor = [UIColor whiteColor];
         _resultLabel.textAlignment = NSTextAlignmentCenter;
         _resultLabel.text = @"龙";
+        _resultLabel.adjustsFontSizeToFitWidth = YES;
         _resultLabel.backgroundColor = [UIColor redColor];
     }
     return _resultLabel;
@@ -103,6 +113,7 @@
         _edgeLabel.font = [UIFont systemFontOfSize:12];
         _edgeLabel.textColor = [UIColor whiteColor];
         _edgeLabel.textAlignment = NSTextAlignmentCenter;
+        _edgeLabel.adjustsFontSizeToFitWidth = YES;
         _edgeLabel.text = @"7期";
         _edgeLabel.backgroundColor = MCUIColorFromRGB(0x0000FD);
     }

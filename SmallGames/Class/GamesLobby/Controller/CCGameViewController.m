@@ -267,10 +267,11 @@
         };//游戏切换
         
         _gameUserActionView.clickLongDragonBtn = ^{
-            [[NSNotificationCenter defaultCenter] postNotificationName:@"ExitKeyboard" object:nil];
-            [CCView BSMBProgressHUD_onlyTextWithView:weakSelf.view.window andText:@"功能完善中！"];
-//            CCGameLongDragonViewController *ldvc = [[CCGameLongDragonViewController alloc]init];
-//            [weakSelf.navigationController pushViewController:ldvc animated:YES];
+//            [[NSNotificationCenter defaultCenter] postNotificationName:@"ExitKeyboard" object:nil];
+//            [CCView BSMBProgressHUD_onlyTextWithView:weakSelf.view.window andText:@"功能完善中！"];
+            CCGameLongDragonViewController *ldvc = [[CCGameLongDragonViewController alloc]init];
+            ldvc.gameType = weakSelf.gameType;
+            [weakSelf.navigationController pushViewController:ldvc animated:YES];
         };//长龙
         
         _gameUserActionView.clickRefreshBtn = ^{

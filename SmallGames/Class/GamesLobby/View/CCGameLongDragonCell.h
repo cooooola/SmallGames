@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CCLongDragonModel.h"
 
 @interface CCGameLongDragonCell : UITableViewCell
-
+@property(nonatomic,strong)CCLongDragonModel *longDragonModel;
 @end

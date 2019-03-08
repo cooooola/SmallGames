@@ -311,4 +311,12 @@
 
 
 
+
+/**
+ 获取长龙记录
+
+ @param completion 数据返回
+ */
++(void)MineLongDragonCompletion:(void(^) (id resultDictionary, NSError *error)) completion;
+
 @end

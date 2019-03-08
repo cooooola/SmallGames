@@ -9,5 +9,5 @@
 #import "CCViewController.h"
 
 @interface CCGameLongDragonViewController : CCViewController
-
+@property(nonatomic,assign)GameType gameType;
 @end

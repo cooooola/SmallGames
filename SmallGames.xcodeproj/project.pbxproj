@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042A7BC12217EFA0007B7ACC /* CCLongDragonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 042A7BC02217EFA0007B7ACC /* CCLongDragonModel.m */; };
 		B961A1E3A4DB019E080C6165 /* libPods-SmallGames.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F83C6169A60160D8CBB26C18 /* libPods-SmallGames.a */; };
 		CE154CD82150B9DA0024555A /* CCView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE154CD62150B9D90024555A /* CCView.m */; };
 		CE154CDB2150BCDB0024555A /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE154CD92150BCDB0024555A /* CCViewController.m */; };
@@ -151,6 +152,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042A7BBF2217EFA0007B7ACC /* CCLongDragonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCLongDragonModel.h; sourceTree = "<group>"; };
+		042A7BC02217EFA0007B7ACC /* CCLongDragonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCLongDragonModel.m; sourceTree = "<group>"; };
 		2C7925F519426F29B5F762A7 /* Pods-SmallGames.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmallGames.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmallGames/Pods-SmallGames.release.xcconfig"; sourceTree = "<group>"; };
 		B13621EA96FBB70E850A144F /* Pods-SmallGames.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmallGames.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmallGames/Pods-SmallGames.debug.xcconfig"; sourceTree = "<group>"; };
 		CE154CD32150B4FB0024555A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -606,6 +609,8 @@
 		CE154CF82150E8960024555A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				042A7BBF2217EFA0007B7ACC /* CCLongDragonModel.h */,
+				042A7BC02217EFA0007B7ACC /* CCLongDragonModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1358,6 +1363,7 @@
 				CEFC5598216CACA9002CDC65 /* SlotMachineTableViewCell.m in Sources */,
 				CE4EF24D215220C00082A8E8 /* CCHomeViewController.m in Sources */,
 				CE154CDB2150BCDB0024555A /* CCViewController.m in Sources */,
+				042A7BC12217EFA0007B7ACC /* CCLongDragonModel.m in Sources */,
 				CEC0CA272154A0DF00B1E6B2 /* CCPersonalSecurityPrivacyViewController.m in Sources */,
 				CE88F397215607FA00CD8165 /* CCPersonalPurseCell.m in Sources */,
 				CE62DDB621576668009A0844 /* CCPersonalAccountRecordCell.m in Sources */,
@@ -1641,7 +1647,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Exchange.60COM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallGames.game;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1662,7 +1668,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Exchange.60COM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallGames.game;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
